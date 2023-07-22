@@ -1,0 +1,11 @@
+.about-container{
+    background-color: rgb(224, 234, 205);
+}
+
+.about-container h1{
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+
+/*  data class recipe{name: string, id: string, desc: string}*/
