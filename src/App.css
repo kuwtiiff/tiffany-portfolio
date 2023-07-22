@@ -3,6 +3,7 @@
 /* background-color: #61dafb;
 height: 100%;
 width: 100%; */
+
   
 }
 
@@ -25,7 +26,40 @@ body {
  
   background-color: rgb(224, 234, 205);
   }
+
+
+  .active-link {
+    background-color: #007bff;
+    color: #fff;
+  }
+  ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right; /* Float the ul to the right */
   
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+  
+ 
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-size: 23px;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
 
 .App-logo {
   height: 40vmin;
