@@ -1,6 +1,31 @@
 .App {
   text-align: center;
+/* background-color: #61dafb;
+height: 100%;
+width: 100%; */
+  
 }
+
+body, html {
+  
+ 
+  margin: 0;
+    
+   
+  padding: 0;
+    
+   
+  height: 100%;
+  }
+
+
+  /* Set the background color for the whole page */
+body {
+  
+ 
+  background-color: rgb(224, 234, 205);
+  }
+  
 
 .App-logo {
   height: 40vmin;
@@ -14,7 +39,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
