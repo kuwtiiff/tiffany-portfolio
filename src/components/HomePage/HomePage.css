@@ -3,6 +3,46 @@
 
 }
 .home-container h1{
-    font-size: 40px;
-    margin-top: 100px;
+    color: #000;
+font-family: Arial;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    /* margin-top: 250px;
+    margin-right: 1000px; */
+    display: block; 
+
 }
+
+.home-title {
+    width: 236px;
+
+    height: 107px;
+    flex-shrink: 0;
+    margin-top: 300px;
+    margin-left: 150px;
+    margin-right: 950px;
+}
+
+.second-heading{
+    width: 400px;
+
+   
+    flex-shrink: 0;
+    margin-top: -80px;
+    margin-left: 150px;
+    margin-right: 950px;
+}
+
+.third-heading{
+    width: 400px;
+    text-decoration-line: underline;
+    text-underline-position: right under;
+    flex-shrink: 0;
+    margin-top: -30px;
+    margin-left: 212px;
+    margin-right: 950px;
+}
+
+
