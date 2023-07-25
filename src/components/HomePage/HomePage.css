@@ -1,48 +1,130 @@
-.home-container{
-    background-color: rgb(224, 234, 205);
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
-}
-.home-container h1{
-    color: #000;
-font-family: Arial;
-font-size: 50px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-    /* margin-top: 250px;
-    margin-right: 1000px; */
-    display: block; 
+.home-container {
+    background: #FBF8E8;
+  
 
 }
 
+.home-container h1 {
+    color: #CA8500;
+    font-family: Staatliches;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 .home-title {
-    width: 236px;
-
-    height: 107px;
+    
     flex-shrink: 0;
     margin-top: 300px;
-    margin-left: 150px;
-    margin-right: 950px;
+    margin-left: -800px;
+
 }
 
-.second-heading{
-    width: 400px;
+.jobtitle-heading {
+    margin-top: -40px;
+    font-family: Staatliches;
+    margin-left: 800px; 
+}
 
+.intro-heading h2{
+    color: black;
+    font-family: Karla;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 800px;
+}
+
+.bobeco-container {
+    background: #FBF8E8;
    
-    flex-shrink: 0;
-    margin-top: -80px;
-    margin-left: 150px;
-    margin-right: 950px;
+    margin-top: 550px;
+    margin-left: 800px; 
 }
 
-.third-heading{
-    width: 400px;
-    text-decoration-line: underline;
-    text-underline-position: right under;
-    flex-shrink: 0;
-    margin-top: -30px;
-    margin-left: 212px;
-    margin-right: 950px;
+.bobeco-heading {
+     
+    background: #FBF8E8;
 }
+
+.bobeco-heading h1 {
+    color: rgba(61, 88, 36, 0.60);
+    font-family: Staatliches;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bobeco-concept h2 {
+    background: #FBF8E8;
+    color: #000;
+    font-family: Karla;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;
+   
+}
+
+.bobeco-desc h2 {
+    color: rgba(0, 0, 0, 0.75);
+    background: #FBF8E8;
+    font-family: Karla;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+  
+}
+
+
+.bobeco-image {
+    margin-left: 500px; 
+    
+    margin-top: -210px;
+}
+
+
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+    .home-container h1 {
+        font-size: 4rem;  /* Increases the font-size on larger screens */
+    }
+    
+    .home-title {
+        margin-left: 800px;
+        text-align: left; /* Aligns to left on larger screens */
+    }
+
+    .jobtitle-heading {
+        margin-left: 800px;
+    }
+
+    .intro-heading h2 {
+        margin-left: 800px;
+    }
+
+    .bobeco-container {
+        margin-left: 800px;
+    }
+
+    .bobeco-image {
+        margin-left: 500px;
+        margin-top: -210px;
+    }
+}
+
+
+
+
+
+
+
 
 
