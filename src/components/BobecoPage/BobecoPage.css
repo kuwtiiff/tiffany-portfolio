@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.bobeco-container {
+    /* background-color: rgb(224, 234, 205); */
+    padding-top: 8rem; 
+  
+}
+
+.bobeco-title h1 {
+    color: #000;
+    font-family: Staatliches;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+.overview-title h1{
+    color: #000;
+font-family: Staatliches;
+font-size: 70px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 200px;
+}
+.bobeco-column-container {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;  /* ensure it takes up full width */
+    margin-bottom: 2rem; /* Adds space below the container */
+}
+
+.column-duration, .column-team, .column-tools, .column-scope {
+    width: 23%; /* this allows a bit of space between each column */
+    margin: 0;  /* control margins */
+    padding: 0 0.5%;  /* giving a slight padding to make sure text doesn't touch the edges */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;  /* added this line to control spacing */
+    font-family: 'Karla', sans-serif;
+}
+
+ul li p{
+    color: #000;
+font-family: Arial;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.bobeco-heading h1 {
+    color: #000;
+font-family: Karla;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+width: 754px;
+height: 82px;
+flex-shrink: 0;
+margin-top: -50px;
+}
+
+.bobeco-overview{
+    margin-top: -188px;
+}
+.bobeco-overview p {
+    color: #000;
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
