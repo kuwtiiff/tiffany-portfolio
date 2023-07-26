@@ -3,7 +3,7 @@
 .bobeco-container {
     /* background-color: rgb(224, 234, 205); */
     padding-top: 8rem; 
-  
+   
 }
 
 .bobeco-title h1 {
@@ -79,4 +79,16 @@ margin-top: -50px;
     line-height: normal;
     
 }
+.bobeco-image {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 420px; 
+    height: 200px; 
+    margin-top: -170px;
+    z-index: 10;
+}
+
+
+
 

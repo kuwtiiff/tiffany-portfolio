@@ -1,8 +1,13 @@
 import './BobecoPage.css';
-import boba from "./bobecoLogo.svg"
+import boba from "./kettleBoba.svg"
 const BobecoPage = () => {
     return(
+        
         <div className = "bobeco-container">
+
+            <div className="bobeco-image" >
+                    <img src={boba} alt="Bobeco Logo" />
+                </div>
             <div className = "bobeco-title">
                 <h1>
                     BOBECO APP
@@ -41,11 +46,7 @@ const BobecoPage = () => {
                                 Mark Meten
                             </p>
                         </li>
-                        <li>
-                            <p>
-                                Patrick Wang
-                            </p>
-                        </li>
+                       
                         <li>
                             <p>
                                 Noah Siapno
@@ -136,9 +137,7 @@ const BobecoPage = () => {
                         <p>cups, made from recyclable material, or cups brought from home. It allows customers to</p>
                         <p> purchase freshly made and customizable drinks free from mixed orders.</p>
                     </div>
-                    <div className="bobeco-image">
-                        {/* <img src={picture} alt="Bobeco Logo" /> */}
-                    </div>
+                 
                 </div>
                      
     )
