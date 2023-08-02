@@ -1,35 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
-.bobeco-container {
+.bobeco-container2 {
     /* background-color: rgb(224, 234, 205); */
     padding-top: 8rem; 
    
 }
 
-.bobeco-title h1 {
+.bobeco-title2 {
+    margin-left: 350px;
+}
+
+.bobeco-title2 h1 {
     color: #000;
     font-family: Staatliches;
     font-size: 80px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    
 }
+
+.bobeco-heading h1 {
+    margin-left: 350px;
+}
+
 .overview-title h1{
     color: #000;
-font-family: Staatliches;
-font-size: 70px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-bottom: 200px;
+    font-family: Staatliches;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 200px;
 }
 .bobeco-column-container {
     text-decoration: none;
     display: flex;
     justify-content: space-between;
-    width: 100%;  /* ensure it takes up full width */
+    width: 65%;  /* ensure it takes up full width */
     margin-bottom: 2rem; /* Adds space below the container */
+    margin-left: 350px;
 }
 
 .column-duration, .column-team, .column-tools, .column-scope {
@@ -47,29 +56,46 @@ ul {
 
 ul li p{
     color: #000;
-font-family: Arial;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .bobeco-heading h1 {
     color: #000;
-font-family: Karla;
-font-size: 25px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-
-width: 754px;
-height: 82px;
-flex-shrink: 0;
-margin-top: -50px;
+    font-family: Karla;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 754px;
+    height: 82px;
+    flex-shrink: 0;
+    margin-top: -50px;
 }
 
-.bobeco-overview{
-    margin-top: -188px;
+.bobeco-overview {
+    margin-top: 100px;
+    margin-left: 350px;
 }
+
+.overview-title {
+    width: 414.357px;
+    height: 107px;
+    flex-shrink: 0;
+}
+
+.overview-title h1 {
+    color: #000;
+    font-family: Staatliches;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
 .bobeco-overview p {
     color: #000;
     font-family: Arial;
@@ -77,18 +103,201 @@ margin-top: -50px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 800px;
     
 }
+
 .bobeco-image {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 420px; 
-    height: 200px; 
+    margin-left: 830px;
     margin-top: -170px;
-    z-index: 10;
+}
+
+.bobeco-image img{
+    width: 160px; 
+    height: 160px; 
+}
+
+.research-container {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;  /* ensure it takes up full width */
+    margin-bottom: 2rem; /* Adds space below the container */
+    margin-left: 350px;
+    margin-top: 100;
+}
+
+.research-title {
+    width: 427px;
+    height: 107px;
+    flex-shrink: 0;
+    margin-left: 350px;
+    margin-top: 100px;
+}
+
+.research-title h1 {
+    color: #000;
+    font-family: Staatliches;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.column-01 {
+    width: 500px;
+    padding: 0, 0, 0.5;
+    flex: 1; /* This makes all columns take up equal space */
+    padding: 0 10px; /* Some padding for breathing space */
+    box-sizing: border-box; 
+}
+
+.column-02 {
+    width: 500px;
+    padding: 0, 0, 0.5;
+    flex: 1; /* This makes all columns take up equal space */
+    padding: 0 10px; /* Some padding for breathing space */
+    box-sizing: border-box; 
+}
+
+.column-03 {
+    width: 500px;
+    padding: 0, 0, 0.5;
+    flex: 1; /* This makes all columns take up equal space */
+    padding: 0 10px; /* Some padding for breathing space */
+    box-sizing: border-box; 
+}
+
+.fieldwork-observations {
+    width: 850px;
+    height: 107px;
+    flex-shrink: 0;
+    margin-left: 350px;
+    margin-top: 100px;
+    
+}
+
+.fieldwork-observations h1{
+    color: #000;
+    font-family: Staatliches;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fieldwork-observations p {
+    color: #000;
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.interview-container {
+   
+    margin-left: 350px;
+    margin-top: 300px;
+    
+}
+
+.interview-title {
+    width: 500px;
+    height: 107px;
+    flex-shrink: 0;
+
+}
+
+.interview-title h1 {
+    color: #000;
+    font-family: Staatliches;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.interview-insights-container {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;  /* ensure it takes up full width */
+    margin-bottom: 2rem; /* Adds space below the container */
+    margin-left: -10px;
+    margin-top: 0;
+   
+}
+
+.interview-columns-01 {
+    width: 500px;
+    padding: 0, 0, 0.5;
+    flex: 1; /* This makes all columns take up equal space */
+    padding: 0 10px; /* Some padding for breathing space */
+    box-sizing: border-box; 
+}
+
+.interview-columns-01 {
+    width: 500px;
+    padding: 0, 0, 0.5;
+    flex: 1; /* This makes all columns take up equal space */
+    padding: 0 10px; /* Some padding for breathing space */
+    box-sizing: border-box; 
+}
+
+.interview-columns-01 {
+    width: 500px;
+    padding: 0, 0, 0.5;
+    flex: 1; /* This makes all columns take up equal space */
+    padding: 0 10px; /* Some padding for breathing space */
+    box-sizing: border-box; 
+}
+
+.our-solution {
+    margin-left: 350px;
+}
+
+.our-solution h1{
+    color: #000;
+    font-family: Staatliches;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.our-solution p {
+    color: #000;
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.branding-system-design {
+    margin-left: 350px;
+}
+
+.branding-system-design h1 {
+    color: #000;
+    font-family: Staatliches;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.kiosk-prototype {
+    margin-left: 350px;
 }
 
 
-
-
+.kiosk-title h1 {
+    color: #000;
+    font-family: Staatliches;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
