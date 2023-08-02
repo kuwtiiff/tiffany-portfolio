@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 .home-container {
-    background: #FBF8E8;
+    /* background: #FBF8E8; */
   
 
 }
@@ -34,67 +34,79 @@
     margin-left: -60px; 
 }
 
-.intro-heading h2{
+.intro-heading h2 {
     font-family: 'Karla', sans-serif;
     color: #1c1c1c;
     font-size: 1.07em;
     line-height: 1.45rem;
     font-weight: 400;
     letter-spacing: -0.05px;
-    margin-left: -60px;
+    /* margin-left: -60px; */
 }
 
 .bobeco-container {
-    background: #FBF8E8;
-    margin-top: 550px;
-    margin-left: -60px; 
+    border-radius: 50px;
+    background: rgba(189, 201, 115, 0.30);
+    width: 950px; 
+    height: 300px;   
+    flex-shrink: 0;
+    margin-left: 400px;
+    margin-top: 100px;
 }
 
-.bobeco-heading {
-     
-    background: #FBF8E8;
+.bobeco-heading2 {
+     margin-left: 100px;
+     margin-top: -90px;
 }
 
-.bobeco-heading h1 {
+.bobeco-heading2 h1 {
     color: rgba(61, 88, 36, 0.60);
     font-family: Staatliches;
-    font-size: 60px;
+    font-size: 70px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
+.bobeco-concept{
+    margin-left: 45px;
+    margin-top: -40px;
+}
+
+.right-content img {
+    max-height: 100%; /* Adjust the image size to fit the container */
+    margin-right: 100px; /* Provide some margin if necessary */
+    margin-left: 450px;
+    margin-top: -100px;
+}
+
 .bobeco-concept h2 {
-    background: #FBF8E8;
+
     color: #000;
     font-family: Karla;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    margin-top: 20px;
+}
 
-   
+.bobeco-desc{
+    margin-left: 45px;
 }
 
 .bobeco-desc h2 {
     color: rgba(0, 0, 0, 0.75);
-    background: #FBF8E8;
     font-family: Karla;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 10px;
-  
 }
 
 
 .bobeco-image {
     margin-left: 500px; 
-    
     margin-top: -210px;
 }
-
 
 
 /* Media query for larger screens */
@@ -120,21 +132,18 @@
         margin-top: -25px;
     }
 
-    .bobeco-container {
-        margin-left: 400px;
+    /* .bobeco-container {
+        margin-left: 200px;
         margin-top: 140px;
     }
-    
+     */
 
     .bobeco-desc h2 {
-        margin-left: -58px;
-        margin-top: 0px;
+        /* margin-left: -58px;
+        margin-top: 0px; */
     }
 
-    .bobeco-concept h2 {
-        margin-left: -58px;
-        margin-top: -25px;
-    }
+    
 
     .bobeco-image {
         margin-left: 400px;
@@ -145,11 +154,120 @@
     }
 }
 
+.designco-container {
+    border-radius: 50px;
+    background: rgba(172, 193, 246, 0.30);
+    width: 950px; 
+    height: 420px;   
+    flex-shrink: 0;
+    margin-left: 400px;
+    margin-top: 100px;
+    
+}
 
+.designco-heading {
+ 
+     margin-left: 100px;
+     margin-top: 50px;
+   
+}
 
+.designco-heading h1 {
+    color: #145F59;
+    font-family: Staatliches;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 45px;
+}
 
+.designco-desc {
+    margin-left: 45px;
+    margin-top: -40px;
+}
 
+.designco-desc h2 {
 
+    color: #000;
+    font-family: Karla;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
 
+.designco-intro {
+    margin-left: 45px;
+}
 
+.designco-intro h2 {
+    color: rgba(0, 0, 0, 0.75);
+    font-family: Karla;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 850px;
+}
+
+.google-container {
+    border-radius: 50px;
+    background: rgba(225, 217, 172, 0.30);
+    width: 950px; 
+    height: 420px;   
+    flex-shrink: 0;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+.google-heading {
+     margin-left: 100px;
+     margin-top: 50px;
+}
+
+.google-heading h1 {
+    color: #1A73E8;
+    font-family: Staatliches;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 45px;
+}
+
+.google-desc {
+    margin-left: 45px;
+    margin-top: -40px;
+}
+
+.google-desc h2 {
+    color: #000;
+    font-family: Karla;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.google-intro {
+    margin-left: 45px;
+}
+
+.google-intro h2 {
+    color: rgba(0, 0, 0, 0.75);
+    font-family: Karla;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    width: 850px;
+}
+
+.google-logo {
+    margin-top: -380px;
+    margin-left: 750px;
+}
+.google-logo img {
+    width: 170px;
+    height: 170px;
+}
 
