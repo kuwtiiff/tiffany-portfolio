@@ -1,11 +1,302 @@
-.about-container{
-    background-color: rgb(224, 234, 205);
-}
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
-.about-container h1{
+.about-page {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: -100px;
+    height: 80%;
+
+  }
+  
+  .about-page .div {
+    border: 1px none;
+    height: 1475px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .about-page .about-page-right {
+    background-color: #ffff;
+    height: 1475px;
+    left: 280px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 1160px;
+  }
+  
+  .about-page .bottom-page-banner-instance {
+    left: 0 !important;
+    position: absolute !important;
+    top: 1251px !important;
+  }
+  
+  .about-page .design-component-instance-node {
+    height: 1px !important;
+  }
+  
+  .about-page .hello {
+    height: 454px;
+    left: 120px;
+    position: absolute;
+    top: 224px;
+    width: 830px;
+  }
+  
+  .about-page .hello-my-name-is {
+    color: transparent;
+    font-family: "Staatliches", Helvetica;
+    font-size: 60px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 741px;
+  }
+  
+  .about-page .text-wrapper {
+    color: #ff7272;
+  }
+  
+  .about-page .span {
+    color: #000000;
+    font-family: "Karla-Regular", Helvetica;
+    font-size: 30px;
+  }
+  
+  .about-page .i-am-an-aspiring-UX {
+    color: #000000;
+    font-family: "Chivo", Helvetica;
+    font-size: 35.5px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 187px;
+    width: 826px;
     margin-top: 100px;
-    font-size: 40px;
-}
+  }
+  
+  .about-page .text-wrapper-2 {
+    color: #000000;
+    font-family: "Chivo-Regular", Helvetica;
+    font-size: 35.5px;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  .about-page .text-wrapper-3 {
+    font-family: "Libre Baskerville-Italic", Helvetica;
+    font-style: italic;
+  }
+  
+  .about-page .other-than-design {
+    height: 384px;
+    left: 120px;
+    position: absolute;
+    top: 738px;
+    width: 831px;
+  }
+  
+  .about-page .text-wrapper-4 {
+    color: #ff7272;
+    font-family: Stardos Stencil;
+    font-size: 55px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 589px;
+  }
+  
+  .about-page .i-love-shoes-and {
+    color: #000000;
+    font-family: "Chivo-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 97px;
+    width: 827px;
+  }
+  
+  .about-page .text-wrapper-5 {
+    color: #000000;
+    font-family: "Chivo-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  .about-page .text-wrapper-6 {
+    font-family: "Chivo-BoldItalic", Helvetica;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .about-page .left-side-component {
+    height: 1475px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 280px;
+  }
+  
+  .about-page .overlap {
+    background-color: #fff1f1;
+    height: 1483px;
+    position: relative;
+  }
+  
+  .about-page .text-wrapper-7 {
+    color: #000000;
+    font-family: "Staatliches-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 29px;
+    white-space: nowrap;
+    width: 164px;
+  }
+  
+  .about-page .nav-bar {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 50px;
+    left: 42px;
+    position: absolute;
+    top: 262px;
+  }
+  
+  .about-page .text-wrapper-8 {
+    color: #000000;
+    font-family: "Karla-Bold", Helvetica;
+    font-size: 17.1px;
+    font-weight: 700;
+    height: 19px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: 97px;
+  }
+  
+  .about-page .sub-nav-bar-menu {
+    height: 177px;
+    position: relative;
+    width: 206px;
+  }
+  
+  .about-page .text-wrapper-9 {
+    color: #000000;
+    font-family: "Karla-Regular", Helvetica;
+    font-size: 17.1px;
+    font-weight: 400;
+    left: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: -1px;
+    white-space: nowrap;
+    width: 107px;
+  }
+  
+  .about-page .bobeco-app {
+    color: #000000;
+    font-family: "Karla-Regular", Helvetica;
+    font-size: 17.1px;
+    font-weight: 400;
+    left: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 67px;
+    white-space: nowrap;
+    width: 107px;
+  }
+  
+  .about-page .designs {
+    color: #000000;
+    font-family: "Karla-Regular", Helvetica;
+    font-size: 17.1px;
+    font-weight: 400;
+    left: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 135px;
+    width: 170px;
+  }
+  
+  .about-page .text-wrapper-10 {
+    color: #000000;
+    font-family: "Karla-Bold", Helvetica;
+    font-size: 17.1px;
+    font-weight: 700;
+    height: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    width: 68px;
+  }
+  
+  .about-page .resume {
+    height: 21px;
+    position: relative;
+    width: 95.48px;
+  }
+  
+  .about-page .overlap-group {
+    height: 21px;
+    position: relative;
+    width: 93px;
+  }
+  
+  .about-page .text-wrapper-11 {
+    color: #000000;
+    font-family: "Karla-Regular", Helvetica;
+    font-size: 17.1px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 89px;
+  }
+  
+  .about-page .outline-download {
+    height: 18px !important;
+    left: 75px !important;
+    position: absolute !important;
+    top: 2px !important;
+    width: 18px !important;
+  }
+  
+  .bottom-banner-image {
+    width: 1212px;
+    height: 158px;
+    flex-shrink: 0;
+    margin-top: 1250px;
+  }
 
-
-/*  data class recipe{name: string, id: string, desc: string}*/
+  .bottom-banner-image img {
+    background: rgba(255, 115, 115, 0.35);
+  }

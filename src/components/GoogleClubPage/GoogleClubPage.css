@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
+
+.developer-student {
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ 
+    margin-left: -90px;
+    margin-top: 105px;
+  }
+  
+  .developer-student .div-2 {
+    border: 1px none;
+    height: 4182px;
+   
+    width: 1440px;
+  }
+  
+  .developer-student .DSC-page-right-side {
+    background-color: #ffffff;
+    height: 4182px;
+    left: 280px;
+    /* overflow: auto; */
+    position: absolute;
+    top: 0;
+    width: 1160px;
+  }
+  
+  .developer-student .DSC-frame {
+    height: 553px;
+    left: 90px;
+    position: absolute;
+    top: 224px;
+    width: 944px;
+  }
+  
+  .developer-student .overlap-group-2 {
+    height: 553px;
+    position: relative;
+    width: 942px;
+   
+  }
+
+  .developer-student .overlap-group-2 .p{
+    margin-top: -105px;
+    font-family: "Zen Kaku Gothic New-Bold", sans-serif;
+    font-size: 18px;
+  }
+  
+  .developer-student .p {
+    color: #000000;
+    font-family: "Zen Kaku Gothic New-Bold", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 170px;
+    width: 773px;
+  }
+  
+  .developer-student .bobeco-columns {
+    align-items: flex-start;
+    display: flex;
+    gap: 32px;
+    height: 223px;
+    left: 0;
+    position: absolute;
+    top: 324px;
+    width: 942px;
+  }
+  
+  .developer-student .duration-aug {
+    color: #000000;
+    font-family: "Zen Kaku Gothic New-Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    height: 164px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 169px;
+  }
+  
+  .developer-student .span {
+    font-weight: 700;
+  }
+  
+  .developer-student .text-wrapper-2 {
+    font-family: "Zen Kaku Gothic New-Regular", sans-serif;
+  }
+  
+  .developer-student .team-denzell {
+    color: #000000;
+    font-family: "Zen Kaku Gothic New-Bold", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    height: 172px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 199px;
+  }
+  
+  .developer-student .tools-canva-g-suite {
+    color: #000000;
+    font-family: "Zen Kaku Gothic New-Bold", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    height: 172px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 108px;
+  }
+  
+  .developer-student .social-media-discord {
+    color: #000000;
+    font-family: "Zen Kaku Gothic New-Bold", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    height: 172px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 118px;
+  }
+  
+  .developer-student .scope-collaboration {
+    color: #000000;
+    font-family: "Zen Kaku Gothic New-Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    height: 172px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: -26px;
+    margin-top: -1px;
+    position: relative;
+    width: 246px;
+  }
+  
+  .developer-student .DSC-page-title {
+    height: 553px;
+    position: absolute;
+    margin-top: -200px;
+  }
+  
+  .developer-student .DSC-title-logo {
+    height: 144px;
+    position: relative;
+    width: 814px;
+  }
+  
+  .developer-student .h-1 {
+    color: #ffffff;
+    font-family: Staatliches, sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    width: 920px;
+    
+    
+  }
+  
+  .developer-student .text-wrapper-3 {
+    color: #000000;
+  }
+  
+  .developer-student .text-wrapper-4 {
+    color: #828282;
+    font-size: 50px;
+    font-family: Staatliches;
+    margin-bottom: 200px;
+  }
+  
+  .developer-student .dscbadgelogo {
+    height: 68px;
+    left: 690px;
+    object-fit: cover;
+    position: absolute;
+    top: 50px;
+    width: 67px;
+    
+  }
+  
+  .developer-student .meet-our-team {
+    height: 404px;
+    left: 90px;
+    position: absolute;
+    top: 877px;
+    width: 942px;
+  }
+  
+  .developer-student .overlap {
+    height: 48px;
+    left: 0;
+    position: absolute;
+    top: -1px;
+    width: 243px;
+  }
+  
+  .developer-student .text-wrapper-5 {
+    color: #000000;
+    font-family: "Zen Kaku Gothic New-Regular", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 243px;
+  }
+  
+  .developer-student .facebook-logo {
+   
+    background-size: 100% 100%;
+    height: 48px;
+    left: 195px;
+    position: absolute;
+    top: 0;
+    width: 48px;
+  }
+  
+  .developer-student .google {
+    height: 311px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 90px;
+    width: 942px;
+  }
+  
+  .developer-student .flyer-designs {
+    height: 661px;
+    left: 90px;
+    position: absolute;
+    top: 2071px;
+    width: 927px;
+  }
+  
+  .developer-student .google-flyers-images {
+    height: 554px;
+    left: 34px;
+    object-fit: cover;
+    position: absolute;
+    top: 91px;
+    width: 860px;
+  }
+  
+  .developer-student .text-wrapper-6 {
+    color: #000000;
+    font-family: "Zen Kaku Gothic New-Regular", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: -1px;
+  }
+  /* .developer-student .text-wrapper-6 .p{
+    font-family: "Zen Kaku Gothic New-Regular", Helvetica;
+    font-size: 22px;
+
+  }
+   */
+  .developer-student .gsuite-certification {
+    height: 234px;
+    left: 90px;
+    position: absolute;
+    top: 2832px;
+    width: 902px;
+  }
+  
+  .developer-student .gsuite-desc {
+    height: 234px;
+    position: relative;
+    width: 936px;
+  }
+  
+  .developer-student .text-wrapper-7 {
+    color: #000000;
+    font-family: "Zen Kaku Gothic New-Regular", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 422px;
+  }
+  
+  .developer-student .a-google-cloud-badge {
+    color: #000000;
+    font-family: "Zen Kaku Gothic New-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 74px;
+    width: 932px;
+  }
+  
+  .developer-student .GCP-essentialsand {
+    height: 685px;
+    left: 90px;
+    position: absolute;
+    top: 3166px;
+    width: 942px;
+  }
+  
+  .developer-student .dscbanner {
+    display: block;
+    height: 311px;
+    left: 11px;
+    object-fit: cover;
+    position: absolute;
+    top: 369px;
+    width: 920px;
+  }
+  
+  .developer-student .GCP-certification {
+    height: 310px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 873px;
+  }
+  
+  .developer-student .GCP {
+    height: 310px;
+    position: relative;
+    width: 877px;
+  }
+  
+  .developer-student .in-this-introductory {
+    color: #000000;
+    font-family: "Zen Kaku Gothic New-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 72px;
+    width: 873px;
+  }
+  
+  .developer-student .text-wrapper-8 {
+    color: #000000;
+    font-family: "Zen Kaku Gothic New-Regular", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 334px;
+  }
+  
+  .developer-student .technical-workshops {
+    height: 590px;
+    left: 90px;
+    position: absolute;
+    top: 1381px;
+    width: 894px;
+  }
+  
+  .developer-student .workshops-images {
+    height: 591px;
+    position: relative;
+    width: 898px;
+  }
+  
+  .developer-student .text-wrapper-9 {
+    color: #000000;
+    font-family: "Zen Kaku Gothic New-Regular", Helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 248px;
+  }
+  
+  .developer-student .my-team-and-i-also {
+    color: #000000;
+    font-family: "Zen Kaku Gothic New-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 68px;
+    width: 894px;
+  }
+  
+  .developer-student .workshops-pics {
+    height: 216px;
+    left: 83px;
+    position: absolute;
+    top: 375px;
+    width: 728px;
+  }
+
+  .developer-student .workshops-pics img {
+    height: 216px;
+   
+  
+    
+    width: 728px;
+  }
+  
+  .developer-student .img {
+    height: 216px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 349px;
+  }
+  
+  .developer-student .google-2 {
+    height: 215px;
+    left: 379px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 349px;
+  }
+  
+  /* .developer-student .left-side-component {
+    height: 4182px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 280px;
+  } */
+  
+  .developer-student .overlap-2 {
+    background-color: #ffffff;
+    height: 4341px;
+    position: relative;
+
+  }
+  
+  .developer-student .text-wrapper-10 {
+    color: #000000;
+    font-family: "Staatliches-Regular", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    left: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 29px;
+    white-space: nowrap;
+    width: 164px;
+  }
