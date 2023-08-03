@@ -12,6 +12,7 @@ const SideNavbar = () => {
           <ul className="submenu">
             <li><Link to="/bobeco-app">Bobeco App</Link></li>
             <li><Link to="/design-co">Design Co</Link></li>
+            <li><Link to ="/dsc-club">Google Developer Student Clubs</Link></li>
           </ul>
         </li>
         <li><Link to="/about">About</Link></li>

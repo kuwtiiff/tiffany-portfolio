@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import HomePage from './components/HomePage/HomePage';
-import Designs from './components/DesignPage/DesignPage';
+import GoogleClubPage from './components/GoogleClubPage/GoogleClubPage';
 import BobecoApp from './components/BobecoPage/BobecoPage.js';
 import DesignCo from './components/DesignCoPage/DesignCoPage';
 import About from './components/AboutPage/AboutPage';
@@ -19,6 +19,7 @@ function App() {
               <Route path="/" element={<HomePage />} />
               <Route path="/bobeco-app" element={<BobecoApp />} />
               <Route path="/design-co" element={<DesignCo />} />
+              <Route path="/dsc-club" element={<GoogleClubPage />} />
               <Route path="/about" element={<About />} />
               <Route path="/resume" element={<Resume />} />
           </Routes>

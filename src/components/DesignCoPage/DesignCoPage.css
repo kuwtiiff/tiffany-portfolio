@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
+
+
+.design-co-page {
+
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* width: 100%; */
+  margin-top: -190px;
+  margin-left: -80px;
+}
+
+.design-co-page .div-2 {
+  border: 1px none;
+  height: 2656px;
+  position: relative;
+  width: 1435px;
+}
+
+.design-co-page .desicn-co-right-side {
+  background-color: #ffffff;
+  height: 2656px;
+  left: 280px;
+  /* overflow: hidden; */
+  position: absolute;
+  top: 0;
+  width: 1155px;
+
+}
+
+.dcologo img {
+  width: 135px;
+  height: 135px;
+}
+
+.design-co-page .designcointro-frame {
+  height: 424px;
+  left: 90px;
+  position: absolute;
+  top: 231px;
+  width: 946px;
+  background-color: #ffffff;
+}
+
+.design-co-page .overlap-group-2 {
+  height: 180px;
+  position: absolute;
+  top: -1px;
+  width: 754px;
+}
+
+.design-co-page .h-1 {
+  flex-shrink: 0;
+  color: #37474F;
+  font-family: Staatliches;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 110px;
+}
+
+.design-co-page .p {
+  color: #000;
+  font-family: Karla;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 754px;
+  height: 82px;
+  flex-shrink: 0;
+  margin-top: -35px;
+}
+
+.design-co-page .design-co-columns {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 87px;
+  left: 0;
+  position: absolute;
+  top: 243px;
+  margin-top: 135px;
+}
+
+.design-co-page .duration-spring {
+  color: #000000;
+  font-family: "Zen Kaku Gothic New-Bold", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  height: 89px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: 99px;
+}
+
+.design-co-page .span {
+  font-weight: 700;
+}
+
+.design-co-page .text-wrapper-2 {
+  color: #000;
+  font-family: "Zen Kaku Gothic New";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.design-co-page .tools-figma-zoom {
+  color: #000000;
+  font-family: "Zen Kaku Gothic New-Bold", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  height: 123px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: 58px;
+}
+
+.design-co-page .scope-hi-fidelity {
+  color: #000000;
+  font-family: "Zen Kaku Gothic New-Bold", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  height: 114px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: 184px;
+}
+
+.design-co-page .tasks-auto-layout {
+  color: #000000;
+  font-family: "Zen Kaku Gothic New-Bold", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  height: 181px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: 243px;
+}
+
+.design-co-page .DCOlogo {
+  display: block;
+  height: 135px;
+  width: 135px;
+}
+
+.design-co-page .workshopfigma-frame {
+  height: 131px;
+  left: 90px;
+  position: absolute;
+  top: 820px;
+  width: 942px;
+  margin-top: 60px;
+}
+
+.design-co-page .workshop-figma-day {
+  color: #000000;
+  font-family: "Zen Kaku Gothic New-Bold", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: -1px;
+  width: 942px;
+  margin-top: 10px;
+}
+
+.span {
+  margin-top: 65px;
+}
+
+.design-co-page .text-wrapper-3 {
+  font-family: "Zen Kaku Gothic New-Regular", sans-serif;
+  font-size: 17px;
+}
+
+.design-co-page .figma-day-workshop {
+  color: #000000;
+  font-family: "Zen Kaku Gothic New-Regular", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 51px;
+  width: 802px;
+}
+.buzzhub-image img {
+  margin-top: 70px;
+}
+
+.design-co-page .buzzhubfigma-frame {
+  height: 701px;
+  left: 90px;
+  position: absolute;
+  top: 986px;
+  width: 866px;
+}
+
+.design-co-page .buzz-hub-title-frame {
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 724px;
+  margin-top: 50px;
+}
+
+.design-co-page .buzzhub-for-students {
+  color: #000000;
+  font-family: "Zen Kaku Gothic New-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  width: 667px;
+}
+
+.design-co-page .text-wrapper-4 {
+  color: #000;
+  font-family: Zen Kaku Gothic New, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.design-co-page .text-wrapper-5 {
+  font-size: 17px;
+}
+
+.design-co-page .social-icons {
+  height: 48px !important;
+  left: 676px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 48px !important;
+}
+
+.design-co-page .desktop-image-frame {
+  display: block;
+  height: 550px;
+  left: 31px;
+  position: absolute;
+  width: 835px; 
+}
+
+.design-co-page .wallet-app {
+  height: 702px;
+  left: 90px;
+  position: absolute;
+  top: 1787px;
+  width: 864px;
+}
+
+.design-co-page .wallet-app-title {
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 839px;
+}
+
+.walletapp-image img {
+  margin-top: 70px;
+}
+
+.design-co-page .text-wrapper-6 {
+  color: #000;
+  font-family: Zen Kaku Gothic New;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.design-co-page .img {
+  display: block;
+  height: 538px;
+  left: 51px;
+  position: absolute;
+  top: 99px;
+  width: 805px;
+}
+
+.design-co-page .left-side-component {
+  background-color: #ffffff;
+  height: 2656px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 280px;
+}
+
+.design-co-page .text-wrapper-7 {
+  color: #000000;
+  font-family: "Staatliches-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  left: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 29px;
+  white-space: nowrap;
+  width: 164px;
+}
+
+.design-co-page .nav-bar-instance {
+  left: 42px !important;
+  position: absolute !important;
+  top: 262px !important;
+}
