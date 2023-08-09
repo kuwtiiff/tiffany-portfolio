@@ -2,6 +2,7 @@ import React from 'react';
 import './SideNavbar.css';
 import { Link } from 'react-router-dom';
 
+import resume from "./TiffanyGunawanResume.pdf"
 const SideNavbar = () => {
   return (
     <div className="sidenav">
@@ -16,7 +17,10 @@ const SideNavbar = () => {
           </ul>
         </li>
         <li><Link to="/about">About</Link></li>
-        <li><Link to="/resume">Resume</Link></li>
+        <li>
+          {/* Downloadable button for the resume */}
+          <a href={resume} download className="download-button">Resume</a>
+        </li>
       </ul>
     </div>
   );

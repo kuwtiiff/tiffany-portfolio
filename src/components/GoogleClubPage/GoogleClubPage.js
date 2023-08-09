@@ -170,7 +170,7 @@ const GoogleClubPage= () => {
               <div className="workshops-images">
                 <div className="text-wrapper-9">Technical Workshops</div>
                 <p className="my-team-and-i-also">
-                  My team and I also facilitated technical workshops with hands-on practice using Workspace&#39;s core
+                  My team and I facilitated technical workshops with hands-on practice using Workspace&#39;s core
                   application (formerly G-suite) for students to earn their Google Cloud certifications. <br />
                   <br />
                   We held these meetings and technical workshops on campus in a computer-lab setting to provide hands-on

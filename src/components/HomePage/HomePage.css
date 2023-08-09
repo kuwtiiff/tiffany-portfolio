@@ -34,14 +34,20 @@
     margin-left: -60px; 
 }
 
+.intro-heading {
+    width: 950px;
+    height: 78px;
+    
+}
+
 .intro-heading h2 {
-    font-family: 'Karla', sans-serif;
-    color: #1c1c1c;
-    font-size: 1.07em;
-    line-height: 1.45rem;
-    font-weight: 400;
-    letter-spacing: -0.05px;
-    /* margin-left: -60px; */
+    color: #000;
+    font-family: Karla;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    
 }
 
 .bobeco-container {
@@ -51,7 +57,7 @@
     height: 300px;   
     flex-shrink: 0;
     margin-left: 400px;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .bobeco-heading2 {
@@ -218,6 +224,9 @@
     flex-shrink: 0;
     margin-left: 400px;
     margin-top: 100px;
+}
+.google-container {
+    margin-bottom: 150px;
 }
 
 .google-heading {

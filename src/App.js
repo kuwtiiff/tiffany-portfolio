@@ -6,7 +6,7 @@ import BobecoApp from './components/BobecoPage/BobecoPage.js';
 import DesignCo from './components/DesignCoPage/DesignCoPage';
 import About from './components/AboutPage/AboutPage';
 import Resume from './components/ResumePage/ResumePage';
-import pdfFile from './DraftResumePortfolio.pdf';
+
 import SideNavbar from './components/SideNavbar/SideNavbar';
 import { BrowserRouter as Router, Route, NavLink, Routes } from 'react-router-dom';
 
