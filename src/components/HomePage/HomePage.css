@@ -22,9 +22,9 @@
     letter-spacing: normal;
     margin-left: -60px;
 }
-.home-title {
-    flex-shrink: 0;
-    margin-top: 300px;
+.home-container .home-title h1 {
+    width: 750px;
+    margin-top: 30px;
     margin-left: -60px;
 }
 
@@ -33,11 +33,9 @@
     font-family: Staatliches;
     margin-left: -60px; 
 }
-
 .intro-heading {
-    width: 950px;
-    height: 78px;
-    
+    width: 800px;
+    margin-left: 350px;
 }
 
 .intro-heading h2 {
@@ -47,14 +45,13 @@
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    
 }
 
 .bobeco-container {
     border-radius: 50px;
     background: rgba(189, 201, 115, 0.30);
     width: 950px; 
-    height: 300px;   
+    height: 420px;   
     flex-shrink: 0;
     margin-left: 400px;
     margin-top: 200px;
@@ -72,6 +69,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: 30px;
 }
 
 .bobeco-concept{
@@ -82,8 +80,8 @@
 .right-content img {
     max-height: 100%; /* Adjust the image size to fit the container */
     margin-right: 100px; /* Provide some margin if necessary */
-    margin-left: 450px;
-    margin-top: -140px;
+    margin-left: 500px;
+    margin-top: -120px;
 }
 
 .bobeco-concept h2 {
@@ -132,12 +130,7 @@
         
     }
 
-    .intro-heading h2 {
-        margin-left: 342px;
-        width: 590px;
-        margin-top: -25px;
-    }
-
+   
     /* .bobeco-container {
         margin-left: 200px;
         margin-top: 140px;

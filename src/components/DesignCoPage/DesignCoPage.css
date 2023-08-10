@@ -2,33 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
 
 
-.design-co-page {
+ .design-co-page {
 
   background-color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  /* width: 100%; */
-  margin-top: -190px;
-  margin-left: -40px;
 }
 
 .design-co-page .div-2 {
   border: 1px none;
   height: 2656px;
-  position: relative;
+ 
   width: 1435px;
 }
 
+.developer-student .DSC-page-right-side{
+  margin-top: 100px;
+}
+.desicn-co-right-side{
+  margin-top: -140px;
+}
 .design-co-page .desicn-co-right-side {
   background-color: #ffffff;
   height: 2656px;
-  left: 280px;
-  /* overflow: hidden; */
-  position: absolute;
-  top: 0;
-  width: 1155px;
-
+  margin-left: 260px;
+  margin-top: -160px;
+  position: relative;
+  
 }
 
 .dcologo img {
@@ -55,7 +53,7 @@
 .design-co-page .h-1 {
   flex-shrink: 0;
   color: #37474F;
-  font-family: Staatliches;
+  font-family: "Staatliches";
   font-size: 70px;
   font-style: normal;
   font-weight: 400;
@@ -65,7 +63,7 @@
 
 .design-co-page .p {
   color: #000;
-  font-family: Karla;
+  font-family: "Zen Kaku Gothic New";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -86,15 +84,14 @@
   margin-top: 135px;
 }
 
-.design-co-page .duration-spring {
+.design-co-page .duration-column {
   color: #000000;
-  font-family: "Zen Kaku Gothic New-Bold", Helvetica;
+  font-family: "Zen Kaku Gothic New";
   font-size: 18px;
   font-weight: 400;
   height: 89px;
   letter-spacing: 0;
   line-height: normal;
-  margin-top: -1px;
   position: relative;
   width: 99px;
 }
@@ -113,43 +110,41 @@
 
 }
 
-.design-co-page .tools-figma-zoom {
+.design-co-page .tools-column {
   color: #000000;
-  font-family: "Zen Kaku Gothic New-Bold", Helvetica;
+  font-family: "Zen Kaku Gothic New";
   font-size: 18px;
   font-weight: 400;
   height: 123px;
   letter-spacing: 0;
   line-height: normal;
-  margin-top: -1px;
   position: relative;
   width: 58px;
 }
 
-.design-co-page .scope-hi-fidelity {
+.design-co-page .scope-column {
   color: #000000;
-  font-family: "Zen Kaku Gothic New-Bold", Helvetica;
+  font-family: "Zen Kaku Gothic New";
   font-size: 18px;
   font-weight: 400;
   height: 114px;
   letter-spacing: 0;
   line-height: normal;
-  margin-top: -1px;
   position: relative;
   width: 184px;
 }
 
-.design-co-page .tasks-auto-layout {
+.design-co-page .tasks-column {
   color: #000000;
-  font-family: "Zen Kaku Gothic New-Bold", Helvetica;
+  font-family: "Zen Kaku Gothic New";
   font-size: 17px;
   font-weight: 400;
   height: 181px;
   letter-spacing: 0;
   line-height: normal;
-  margin-top: -1px;
   position: relative;
   width: 243px;
+  margin-top: 1px;
 }
 
 .design-co-page .DCOlogo {
@@ -163,22 +158,21 @@
   left: 90px;
   position: absolute;
   top: 820px;
-  width: 942px;
-  margin-top: 60px;
+  width: 945px;
+  margin-top: 140px;
 }
 
 .design-co-page .workshop-figma-day {
   color: #000000;
-  font-family: "Zen Kaku Gothic New-Bold", sans-serif;
+  font-family: "Zen Kaku Gothic New";
   font-size: 26px;
-  font-weight: 400;
+  font-weight: 400px;
   left: 0;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: -1px;
-  width: 942px;
-  margin-top: 10px;
+  width: 945px;
+  margin-top: 5px;
 }
 
 .span {
@@ -186,13 +180,13 @@
 }
 
 .design-co-page .text-wrapper-3 {
-  font-family: "Zen Kaku Gothic New-Regular", sans-serif;
+  font-family: "Zen Kaku Gothic New";
   font-size: 17px;
 }
 
 .design-co-page .figma-day-workshop {
   color: #000000;
-  font-family: "Zen Kaku Gothic New-Regular", sans-serif;
+  font-family: "Zen Kaku Gothic New";
   font-size: 17px;
   font-weight: 400;
   left: 0;
@@ -203,14 +197,14 @@
   width: 802px;
 }
 .buzzhub-image img {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .design-co-page .buzzhubfigma-frame {
   height: 701px;
   left: 90px;
   position: absolute;
-  top: 986px;
+  margin-top: 1100px;
   width: 866px;
 }
 
@@ -225,10 +219,11 @@
 
 .design-co-page .buzzhub-for-students {
   color: #000000;
-  font-family: "Zen Kaku Gothic New-Regular", sans-serif;
+  font-family: "Zen Kaku Gothic New";
   font-size: 28px;
   font-weight: 400;
   left: 0;
+  text-decoration: none;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -237,7 +232,7 @@
 
 .design-co-page .text-wrapper-4 {
   color: #000;
-  font-family: Zen Kaku Gothic New, sans-serif;
+  font-family: "Zen Kaku Gothic New";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -276,8 +271,13 @@
   height: 48px;
   left: 0;
   position: absolute;
-  top: 0;
+  margin-top: 50px;
   width: 839px;
+  text-decoration: none;
+}
+
+.design-co-page .wallet-app-title a{
+  text-decoration: none;
 }
 
 .walletapp-image img {
@@ -303,18 +303,11 @@
   width: 805px;
 }
 
-.design-co-page .left-side-component {
-  background-color: #ffffff;
-  height: 2656px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 280px;
-}
+
 
 .design-co-page .text-wrapper-7 {
   color: #000000;
-  font-family: "Staatliches-Regular", sans-serif;
+  font-family: "Staatliches-Regular";
   font-size: 25px;
   font-weight: 400;
   left: 40px;
@@ -324,10 +317,4 @@
   top: 29px;
   white-space: nowrap;
   width: 164px;
-}
-
-.design-co-page .nav-bar-instance {
-  left: 42px !important;
-  position: absolute !important;
-  top: 262px !important;
-}
+} 
