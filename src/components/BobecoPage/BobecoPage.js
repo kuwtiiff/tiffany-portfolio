@@ -139,9 +139,11 @@ const BobecoPage = () => {
                 </h2>
                 <ul>
                 <li>
+                <a href="https://www.emerald.com/insight/content/doi/10.1108/JHTT-03-2020-0065/full/html">
                     <p>
                     “Customers report a better experience when using self-service kiosks compared to placing orders with cashiers.”
                     </p>
+                    </a>
                 </li>
                 {/* <li>
                     <p>
@@ -159,9 +161,11 @@ const BobecoPage = () => {
                 </h2>
                 <ul>
                 <li>
+                <a href="https://www.today.com/food/man-severe-allergy-sues-starbucks-serving-him-wrong-drink-t164162">
                     <p>
                     “Starbucks is now being sued after a barista's alleged mistake left a man in the hospital.”
                     </p>
+                    </a>
                 </li>
 
                 {/* <li>

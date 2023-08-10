@@ -19,8 +19,8 @@ const GoogleClubPage= () => {
                   My best friends and I kickstarted the first Google Developer Student Club at San Diego Miramar Community
                   College that was funded by Google Developers.
                 </p>
-                <div className="bobeco-columns">
-                  <p className="duration-aug">
+                <div className="design-columns">
+                  <p className="duration-column">
                     <span className="span">
                       duration~
                       <br />
@@ -31,7 +31,7 @@ const GoogleClubPage= () => {
                       <br />
                     </span>
                   </p>
-                  <p className="team-denzell">
+                  <p className="team-column">
                     <span className="span">
                       team
                       <br />
@@ -51,7 +51,7 @@ const GoogleClubPage= () => {
                       <br />
                     </span>
                   </p>
-                  <div className="tools-canva-g-suite">
+                  <div className="tools-column">
                     <span className="span">
                       tools
                       <br />
@@ -69,7 +69,7 @@ const GoogleClubPage= () => {
                       <br />
                     </span>
                   </div>
-                  <div className="social-media-discord">
+                  <div className="social-column">
                     <span className="span">
                       social media
                       <br />
@@ -87,7 +87,7 @@ const GoogleClubPage= () => {
                       Twitter
                     </span>
                   </div>
-                  <div className="scope-collaboration">
+                  <div className="scope-column">
                     <span className="span">
                       scope
                       <br />
@@ -170,7 +170,7 @@ const GoogleClubPage= () => {
               <div className="workshops-images">
                 <div className="text-wrapper-9">Technical Workshops</div>
                 <p className="my-team-and-i-also">
-                  My team and I also facilitated technical workshops with hands-on practice using Workspace&#39;s core
+                  My team and I facilitated technical workshops with hands-on practice using Workspace&#39;s core
                   application (formerly G-suite) for students to earn their Google Cloud certifications. <br />
                   <br />
                   We held these meetings and technical workshops on campus in a computer-lab setting to provide hands-on

@@ -1,38 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
 
 .bobeco-container2 {
     /* background-color: rgb(224, 234, 205); */
     padding-top: 8rem; 
-    margin-left: 100px;
-   
+    margin-top: 20px;
 }
 
 .bobeco-title2 {
     margin-left: 350px;
 }
 
-.bobeco-title2 h1 {
+.bobeco-container2 .bobeco-title2 h1 {
     color: #000;
-    font-family: Staatliches;
-    font-size: 80px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.bobeco-heading h1 {
-    margin-left: 350px;
-}
-
-.overview-title h1{
-    color: #000;
-    font-family: Staatliches;
+    font-family: "Staatliches";
     font-size: 70px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-bottom: 200px;
 }
+
+.bobeco-container2 .bobeco-heading h1 {
+    color: #000;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bobeco-heading {
+    margin-left: 350px;
+ 
+}
+
+.bobeco-overview .overview-title h1{
+    color: #000;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.bobeco-overview p {
+    color: #000;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -50px;
+}
+
 .bobeco-column-container {
     text-decoration: none;
     display: flex;
@@ -48,68 +69,115 @@
     padding: 0 0.5%;  /* giving a slight padding to make sure text doesn't touch the edges */
 }
 
+.column-duration h2 {
+    color: #000;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.column-duration ul li p {
+    color: #000000;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 18px;
+    font-weight: 400;
+    width: 300px;
+}
+
+.column-team h2 {
+    color: #000;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.column-team ul li p {
+    color: #000000;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 18px;
+    font-weight: 400;
+    width: 300px;
+}
+
+.column-tools h2 {
+    color: #000;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.column-tools ul li p {
+    color: #000000;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 18px;
+    font-weight: 400;
+    width: 300px;
+}
+.column-scope h2 {
+    color: #000;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.column-scope ul li p {
+    color: #000000;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 18px;
+    font-weight: 400;
+    width: 300px;
+}
 ul {
     list-style-type: none;
     padding: 0;
     margin: 0;  /* added this line to control spacing */
-    font-family: 'Karla', sans-serif;
+    font-family: 'Zen Kaku Gothic New-Regular';
 }
 
-ul li p{
+
+.bobeco-container2 .bobeco-heading h1 {
     color: #000;
-    font-family: Arial;
-    font-size: 18px;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 24px;
     font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-.bobeco-heading h1 {
-    color: #000;
-    font-family: Karla;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
     width: 754px;
     height: 82px;
     flex-shrink: 0;
     margin-top: -50px;
-}
+  }
+  
+  
 
 .bobeco-overview {
     margin-top: 150px;
     margin-left: 350px;
+    width: 721px;
+    margin-bottom: -35px;
 }
 
 .overview-title {
-    width: 414.357px;
+    width: 721px;
     height: 107px;
     flex-shrink: 0;
+   
 }
 
-.overview-title h1 {
+.bobeco-overview .overview-title p {
     color: #000000;
-    font-family: "Zen Kaku Gothic New-Bold", sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    letter-spacing: 0;
-    line-height: normal;
-    position: relative;
-    width: 120px;
-}
-
-
-.bobeco-overview p {
-    color: #000000;
-    font-family: "Zen Kaku Gothic New-Regular", sans-serif;
-    font-size: 18px;
+    font-family: "Zen Kaku Gothic New-Regular";
+    font-size: 20px;
     font-weight: 400;
     letter-spacing: 0;
     line-height: normal;
     position: relative;
     width: 721px;
-    margin-top: -40px;
-    
 }
 
 .bobeco-image {
@@ -137,10 +205,10 @@ ul li p{
 }
 
 
-.prototype-title h1{
+.bobeco-prototype .prototype-title h1{
     color: #000;
-    font-family: "Zen Kaku Gothic New-Bold", sans-serif;
-    font-size: 24px;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 22px;
     font-weight: 700;
     line-height: normal;
     margin-bottom: 50px;
@@ -173,8 +241,8 @@ ul li p{
 
 .research-title h1 {
     color: #000;
-    font-family: "Zen Kaku Gothic New-Bold", sans-serif;
-    font-size: 24px;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 22px;
     font-weight: 700;
     font-style: normal;
     line-height: normal;
@@ -190,7 +258,7 @@ ul li p{
 }
 
 .column-01 h1 {
-    font-family: "Staatliches-Regular", sans-serif;
+    font-family: "Zen Kaku Gothic New";
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 0;
@@ -202,7 +270,7 @@ ul li p{
 }
 
 .column-01 h2 {
-    font-family: "Zen Kaku Gothic New-Bold", sans-serif;
+    font-family: "Zen Kaku Gothic New";
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0;
@@ -210,9 +278,25 @@ ul li p{
     position: relative;
 }
 
-.column-01 ul li p {
+.research-container .column-01 ul li p {
     color: #000000;
-    font-family: "Zen Kaku Gothic New-Bold", Helvetica;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 18px;
+    font-weight: 400;
+    width: 300px;
+}
+
+.research-container .column-02 ul li p {
+    color: #000000;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 18px;
+    font-weight: 400;
+    width: 300px;
+}
+
+.research-container .column-03 ul li p {
+    color: #000000;
+    font-family: "Zen Kaku Gothic New";
     font-size: 18px;
     font-weight: 400;
     width: 300px;
@@ -228,7 +312,7 @@ ul li p{
 
 .column-02 h1 {
     color: #000000;
-    font-family: "Zen Kaku Gothic New-Bold", sans-serif;
+    font-family: "Zen Kaku Gothic New";
     font-size: 22px;
     font-weight: 700;
     text-align: center;
@@ -237,7 +321,7 @@ ul li p{
 
 .column-02 h2 {
     color: #000000;
-    font-family: "Zen Kaku Gothic New-Bold", sans-serif;
+    font-family: "Zen Kaku Gothic New";
     font-size: 18px;
     font-weight: 700;
 }
@@ -252,7 +336,7 @@ ul li p{
 
 .column-03 h1 {
     color: #000000;
-    font-family: "Zen Kaku Gothic New-Bold", Helvetica;
+    font-family: "Zen Kaku Gothic New";
     font-size: 22px;
     font-weight: 700;
     text-align: center;
@@ -261,7 +345,7 @@ ul li p{
 }
 
 .column-03 h2 {
-    font-family: "Zen Kaku Gothic New-Bold", Helvetica;
+    font-family: "Zen Kaku Gothic New";
     font-weight: 700;
     font-size: 18px;
     color: #000000;
@@ -276,17 +360,18 @@ ul li p{
     
 }
 
-.fieldwork-observations h1{
+.fieldwork-title h1{
     color: #000;
-    font-family: "Zen Kaku Gothic New" sans-serif;
+    font-family: "Zen Kaku Gothic New";
     font-size: 22px;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 40px;
 }
 
 .fieldwork-observations p {
     color: #000;
-    font-family: Arial;
+    font-family: "Zen Kaku Gothic New";
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -304,12 +389,12 @@ ul li p{
     width: 500px;
     height: 107px;
     flex-shrink: 0;
-
+    margin-bottom: -40px;
 }
 
 .interview-title h1 {
     color: #000;
-    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-family: "Zen Kaku Gothic New";
     font-size: 22px;
     font-weight: 700;
     line-height: normal;
@@ -326,46 +411,55 @@ ul li p{
    
 }
 
-.interview-columns-01 {
-    width: 500px;
-    padding: 0, 0, 0.5;
-    flex: 1; /* This makes all columns take up equal space */
-    padding: 0 10px; /* Some padding for breathing space */
-    box-sizing: border-box; 
-}
-
-.columns-01 h2 {
+.column-01 h2 {
     color: #000;
-    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-family: "Zen Kaku Gothic New";
     font-size: 18px;
     font-weight: 700;
     line-height: normal;
 }
 
-.interview-columns-02 {
-    width: 500px;
-    padding: 0, 0, 0.5;
-    flex: 1; /* This makes all columns take up equal space */
-    padding: 0 10px; /* Some padding for breathing space */
-    box-sizing: border-box; 
+.interview-insights-container .column-01 ul li p {
+    color: #000000;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 18px;
+    font-weight: 400;
+    width: 300px;
 }
 
-.columns-02 h2 {
+
+.column-02 h2 {
     color: #000;
-    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-family: "Zen Kaku Gothic New";
     font-size: 18px;
     font-weight: 700px;
     line-height: normal;
 }
 
-
-.interview-columns-03 {
-    width: 500px;
-    padding: 0, 0, 0.5;
-    flex: 1; /* This makes all columns take up equal space */
-    padding: 0 10px; /* Some padding for breathing space */
-    box-sizing: border-box; 
+.interview-insights-container .column-02 ul li p {
+    color: #000000;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 18px;
+    font-weight: 400;
+    width: 300px;
 }
+
+.column-03 {
+    color: #000;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 18px;
+    font-weight: 700px;
+    line-height: normal;
+}
+
+.interview-insights-container .column-03 ul li p {
+    color: #000000;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 18px;
+    font-weight: 400;
+    width: 300px;
+}
+
 
 .our-solution {
     margin-left: 350px;
@@ -379,6 +473,7 @@ ul li p{
     font-style: normal;
     font-weight: 700px;
     line-height: normal;
+    margin-bottom: 40px;
 }
 
 .our-solution p {
@@ -399,9 +494,9 @@ ul li p{
     margin-top: 150px;
 }
 
-.branding-system-design h1 {
+.branding-system-design .branding-title h1 {
     color: #000;
-    font-family: "Zen Kaku Gothic New-Bold", sans-serif;
+    font-family: "Zen Kaku Gothic New";
     font-size: 22px;
     font-weight: 700;
     line-height: normal;
