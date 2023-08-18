@@ -50,8 +50,9 @@
 .design-co-page .overlap-group-2 {
   height: 180px;
   position: absolute;
-  top: -1px;
+  top: -120px;
   width: 754px;
+
 }
 
 .design-co-page .h-1 {
@@ -141,15 +142,21 @@
   width: 184px;
 }
 
-.youtube-icon{
+.youtube-icon {
   margin-left: 600px;
   margin-top: -40px;
 }
 
-.youtube-icon2{
+.youtube-icon2 {
   margin-left: 690px;
   margin-top: -65px;
 }
+
+.dco-icon {
+  margin-left: 800px;
+}
+
+
 
 
 .design-co-page .tasks-auto-layout {

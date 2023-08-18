@@ -9,14 +9,15 @@ import "./DesignCoPage.css";
 export const DesignCoPage = () => {
   return (
     <div className="design-co-page">
-      <div className="dco-icon" >
-          <img src={designcologo} alt="designco-icon" />
-      </div>
       <div className="div-2">
         <div className="desicn-co-right-side">
           <div className="designcointro-frame">
             <div className="overlap-group-2">
+            <div className="dco-icon" >
+                <img src={designcologo} alt="designco-icon" />
+              </div>
               <h1 className="h-1">DESIGN CO</h1>
+              
               <p className="p">
                 I joined UCSD’s largest design community and learned more on how to use Figma through their workshops :)
               </p>
