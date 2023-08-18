@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './HomePage.css';
-import pic1 from './dsclogo.svg'
-import pic2 from './bobeco_kettle.svg'
+import pic1 from './dscicon.png'
+import pic2 from './BobecoHeartsKetleLogo.png'
 const HomePage= () => {
     return (
         <div className = "home-container">

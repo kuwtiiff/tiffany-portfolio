@@ -31,9 +31,11 @@
 
 }
 
-.dcologo img {
+.designcologo img {
   width: 135px;
   height: 135px;
+  margin-right: 2000px;
+  margin-top: 150px;
 }
 
 .design-co-page .designcointro-frame {
@@ -138,6 +140,17 @@
   position: relative;
   width: 184px;
 }
+
+.youtube-icon{
+  margin-left: 600px;
+  margin-top: -40px;
+}
+
+.youtube-icon2{
+  margin-left: 690px;
+  margin-top: -65px;
+}
+
 
 .design-co-page .tasks-auto-layout {
   color: #000000;
