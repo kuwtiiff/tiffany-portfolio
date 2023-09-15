@@ -51,12 +51,38 @@
   }
   .submenu {
     padding-top: 30px;
+  }
 
-    
+
+  .sidenav-links a {
+    transition: transform 0.2s, font-weight 0.2s; /* Added transition effect */
   }
   
-  .sidenav-links li a:hover {
-    background-color: #575757;
+  .sidenav-links a:hover {
+    font-weight: bold; /* Make the text bold on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
   }
   
-  
+
+.sidenav-links li a.active-link {
+  font-weight: bold;
+  color: black;
+}
+
+.fade-enter {
+  opacity: 0;
+  transition: opacity 300ms ease-in;
+}
+
+.fade-enter-active {
+  opacity: 1;
+}
+
+.fade-exit {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.fade-exit-active {
+  opacity: 0;
+}

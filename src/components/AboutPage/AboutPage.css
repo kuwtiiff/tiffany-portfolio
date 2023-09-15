@@ -1,20 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap');
+
+
 
 .about-page {
     background-color: transparent;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    margin-top: -100px;
-    height: 80%;
+   
+  
+   
 
   }
   
   .about-page .div {
     border: 1px none;
     height: 1475px;
-    position: relative;
+    
     width: 1440px;
   }
   
@@ -26,6 +29,7 @@
     position: absolute;
     top: 0;
     width: 1160px;
+    margin-top: -80px;
   }
   
   .about-page .bottom-page-banner-instance {
@@ -48,7 +52,7 @@
   
   .about-page .hello-my-name-is {
     color: transparent;
-    font-family: "Staatliches", Helvetica;
+    font-family: "Staatliches";
     font-size: 60px;
     font-weight: 400;
     left: 0;
@@ -65,13 +69,13 @@
   
   .about-page .span {
     color: #000000;
-    font-family: "Karla-Regular", Helvetica;
+    font-family: "Karla-Regular";
     font-size: 30px;
   }
   
   .about-page .i-am-an-aspiring-UX {
     color: #000000;
-    font-family: "Chivo", Helvetica;
+    font-family: "Chivo";
     font-size: 35.5px;
     font-weight: 400;
     left: 0;
@@ -85,15 +89,19 @@
   
   .about-page .text-wrapper-2 {
     color: #000000;
-    font-family: "Chivo-Regular", Helvetica;
+    font-family: "Chivo-Regular";
     font-size: 35.5px;
     font-weight: 400;
     letter-spacing: 0;
   }
   
   .about-page .text-wrapper-3 {
-    font-family: "Libre Baskerville-Italic", Helvetica;
+    color: #000;
+    font-family: "Libre Baskerville";
+    font-size: 34px;
     font-style: italic;
+    font-weight: 400;
+    line-height: normal;
   }
   
   .about-page .other-than-design {
@@ -106,7 +114,7 @@
   
   .about-page .text-wrapper-4 {
     color: #ff7272;
-    font-family: Stardos Stencil;
+    font-family: "Stardos Stencil";
     font-size: 55px;
     font-weight: 700;
     left: 0;
@@ -119,7 +127,7 @@
   
   .about-page .i-love-shoes-and {
     color: #000000;
-    font-family: "Chivo-Regular", Helvetica;
+    font-family: "Chivo-Regular";
     font-size: 32px;
     font-weight: 400;
     left: 0;
@@ -132,14 +140,14 @@
   
   .about-page .text-wrapper-5 {
     color: #000000;
-    font-family: "Chivo-Regular", Helvetica;
+    font-family: "Chivo-Regular";
     font-size: 32px;
     font-weight: 400;
     letter-spacing: 0;
   }
   
   .about-page .text-wrapper-6 {
-    font-family: "Chivo-BoldItalic", Helvetica;
+    font-family: "Chivo-BoldItalic";
     font-style: italic;
     font-weight: 700;
   }
@@ -161,7 +169,7 @@
   
   .about-page .text-wrapper-7 {
     color: #000000;
-    font-family: "Staatliches-Regular", Helvetica;
+    font-family: "Staatliches-Regular";
     font-size: 25px;
     font-weight: 400;
     left: 40px;
@@ -185,7 +193,7 @@
   
   .about-page .text-wrapper-8 {
     color: #000000;
-    font-family: "Karla-Bold", Helvetica;
+    font-family: "Karla-Bold";
     font-size: 17.1px;
     font-weight: 700;
     height: 19px;
@@ -205,7 +213,7 @@
   
   .about-page .text-wrapper-9 {
     color: #000000;
-    font-family: "Karla-Regular", Helvetica;
+    font-family: "Karla-Regular";
     font-size: 17.1px;
     font-weight: 400;
     left: 25px;
@@ -219,7 +227,7 @@
   
   .about-page .bobeco-app {
     color: #000000;
-    font-family: "Karla-Regular", Helvetica;
+    font-family: "Karla-Regular";
     font-size: 17.1px;
     font-weight: 400;
     left: 25px;
@@ -233,7 +241,7 @@
   
   .about-page .designs {
     color: #000000;
-    font-family: "Karla-Regular", Helvetica;
+    font-family: "Karla-Regular";
     font-size: 17.1px;
     font-weight: 400;
     left: 25px;
@@ -291,7 +299,6 @@
   }
   
   .bottom-banner-image {
-    width: 1212px;
     height: 158px;
     flex-shrink: 0;
     margin-top: 1250px;

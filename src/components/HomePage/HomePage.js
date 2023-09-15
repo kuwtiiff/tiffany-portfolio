@@ -1,10 +1,21 @@
 import React, { useState, useEffect } from "react";
 import './HomePage.css';
+import {useNavigate} from 'react-router-dom';
 import pic1 from './dscicon.png'
 import pic2 from './BobecoHeartsKetleLogo.png'
+
 const HomePage= () => {
+    const navigate = useNavigate();
+
+    const handleClick = (route) => {
+        navigate(route);
+        window.scrollTo(0, 0); // This will scroll to the top of the page
+
+    };
+
     return (
         <div className = "home-container">
+            
             <div className = "home-title">
                 <h1>
                     Tiffany Gunawan
@@ -22,8 +33,8 @@ const HomePage= () => {
                 </h2>
 
             </div>
-            <div className = "bobeco-container">
-
+            
+            <div className = "bobeco-container" onClick={() => handleClick('/bobeco-app')}>
                 <div className = "bobeco-heading2">
                     <h1>
                         BOBECO APP
@@ -39,7 +50,7 @@ const HomePage= () => {
 
             <div className = "bobeco-desc">
                 <h2>
-                    Prototype Kiosk App for Boba Cafe
+                    Concept Prototype Kiosk App for Boba Cafe designed for an eco-friendly vending machine, which offers transparent, automated boba service, prioritizing sustainability through reusable cups and recyclable materials, while ensuring accurate, customized drink orders.
                 </h2>
             
             </div>
@@ -49,8 +60,7 @@ const HomePage= () => {
             </div>
             </div>
 
-            <div className = "designco-container">
-
+            <div className = "designco-container" onClick={() => handleClick('/design-co')}>
                 <div className = "designco-heading">
                     <h1>
                         DESIGN CO
@@ -59,7 +69,7 @@ const HomePage= () => {
 
                 <div className = "designco-desc">
                     <h2>
-                        Workshops | Design Community
+                        Workshops | Design Community | UC San Diego
                     </h2>
                 </div>
                 <div className = "designco-intro">
@@ -70,7 +80,7 @@ const HomePage= () => {
             </div>    
 
 
-            <div className = "google-container">
+            <div className = "google-container" onClick={() => handleClick('/dsc-club')}>
 
                 <div className = "google-heading">
                     <h1>

@@ -44,6 +44,11 @@ const BobecoPage = () => {
                     <ul>
                         <li>
                             <p>
+                                Haozhong Jin
+                            </p>
+                        </li>
+                        <li>
+                            <p>
                                 Mark Meten
                             </p>
                         </li>
@@ -55,9 +60,10 @@ const BobecoPage = () => {
                         </li>
                         <li>
                             <p>
-                                Haozhong Jin
+                                Patrick Wang
                             </p>
                         </li>
+                        
                     </ul>
                         
                 </div>
@@ -69,6 +75,11 @@ const BobecoPage = () => {
                         <li>
                             <p>
                                 Figma
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Miro
                             </p>
                         </li>
                         <li>

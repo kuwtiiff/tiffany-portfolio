@@ -3,7 +3,7 @@ import walletapp from "./WalletAppBackgroundPic.png"
 import designcologo from "./Designcologo.png"
 import React, { useState, useEffect } from "react";
 import youtube from "./YoutubeIcon.png";
-import youtube2 from "./YoutubeIcon2.png";
+import youtube2 from "./YoutubeIcon.png";
 import "./DesignCoPage.css";
 
 export const DesignCoPage = () => {
@@ -19,11 +19,12 @@ export const DesignCoPage = () => {
               <h1 className="h-1">DESIGN CO</h1>
               
               <p className="p">
-                I joined UCSD’s largest design community and learned more on how to use Figma through their workshops :)
+                I joined UCSD’s largest design community and learned more on how
+                to use Figma through their workshops :D
               </p>
             </div>
             <div className="design-co-columns">
-              <div className="duration-spring">
+              <div className="duration-column">
                 <span className="span">
                   duration~
                   <br />
@@ -34,7 +35,7 @@ export const DesignCoPage = () => {
                   <br />
                 </span>
               </div>
-              <div className="tools-figma-zoom">
+              <div className="tools-column">
                 <span className="span">
                   tools
                   <br />
@@ -47,7 +48,7 @@ export const DesignCoPage = () => {
                   <br />
                 </span>
               </div>
-              <div className="scope-hi-fidelity">
+              <div className="scope-column">
                 <span className="span">
                   scope
                   <br />
@@ -59,7 +60,7 @@ export const DesignCoPage = () => {
                   Design Process
                 </span>
               </div>
-              <p className="tasks-auto-layout">
+              <p className="tasks-column">
                 <span className="span">
                   tasks
                   <br />
@@ -84,7 +85,7 @@ export const DesignCoPage = () => {
               <img className="img" alt="DCOlogo" src={designcologo} />
             </a>
           </div> */}
-          
+
           <div className="workshopfigma-frame">
             <p className="workshop-figma-day">
               <span className="span">
@@ -96,10 +97,12 @@ export const DesignCoPage = () => {
               </span>
             </p>
             <p className="figma-day-workshop">
-              Figma Day Workshop started with an overview of Figma, an introduction of tools, and simple prototyping.
+              Figma Day Workshop started with an overview of Figma, an
+              introduction of tools, and simple prototyping.
               <br />
-              After attending, I decided to follow a YouTube tutorial by DesignCode, one of my favorite YouTubers to
-              practice utilizing Figma
+              After attending, I decided to follow a YouTube tutorial by
+              DesignCode, one of my favorite YouTubers to practice utilizing
+              Figma
             </p>
           </div>
           <div className="buzzhubfigma-frame">
@@ -113,41 +116,51 @@ export const DesignCoPage = () => {
                 <span className="text-wrapper-4">
                   BuzzHub for Students - A Design inspired by Discord
                   <br />
-                    <div className="youtube-icon" >
-                            <img src={youtube} alt="Youtube icon" />
-                    </div>
                 </span>
+          
                 <span className="text-wrapper-5">
                   <br />
                 </span>
               </p>
+
+              <div className="youtube-icon" >
+                    <img src={youtube} alt="Youtube icon" />
+                </div>
               <youtube className="youtube-icon" />
             </a>
-            <a href="https://www.youtube.com/watch?v=5IanQIwhA4E" rel="noopener noreferrer" target="_blank">
-            <div className="buzzhub-image" >
-            <img className="img" alt="Desktop" src={desktop} />
+            <a
+              href="https://www.youtube.com/watch?v=5IanQIwhA4E"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div className="buzzhub-image">
+                <img className="img" alt="Desktop" src={desktop} />
               </div>
             </a>
           </div>
           <div className="wallet-app">
+          <div className="youtube-icon2" >
+                <img src={youtube2} alt="Youtube icon2" />
+            </div>
             <div className="wallet-app-title">
               <youtube color="original" platform="youtube-icon" />
               <a href="https://www.youtube.com/watch?v=5IanQIwhA4E" rel="noopener noreferrer" target="_blank">
                 <p className="text-wrapper-6">UI Design a Wallet App in Figma - Full Course by Design Code</p>
-                <div className="youtube-icon2" >
-                            <img src={youtube2} alt="Youtube icon2" />
-                    </div>
               </a>
+              
             </div>
-            <a href="https://www.youtube.com/watch?v=5IanQIwhA4E" rel="noopener noreferrer" target="_blank">
-              <div className="walletapp-image" >
+      
+            <a
+              href="https://www.youtube.com/watch?v=5IanQIwhA4E"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div className="walletapp-image">
                 <img className="img" alt="WalletApp" src={walletapp} />
               </div>
             </a>
-
           </div>
         </div>
-        
       </div>
     </div>
   );

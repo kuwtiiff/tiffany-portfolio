@@ -1,14 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './components/HomePage/HomePage';
 import GoogleClubPage from './components/GoogleClubPage/GoogleClubPage';
 import BobecoApp from './components/BobecoPage/BobecoPage.js';
 import DesignCo from './components/DesignCoPage/DesignCoPage';
 import About from './components/AboutPage/AboutPage';
 import Resume from './components/ResumePage/ResumePage';
-
 import SideNavbar from './components/SideNavbar/SideNavbar';
-import { BrowserRouter as Router, Route, NavLink, Routes } from 'react-router-dom';
 
 function App() {
   return (
