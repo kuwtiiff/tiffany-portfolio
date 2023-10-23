@@ -1,6 +1,6 @@
 import React from "react";
 import "./SideNavbar.css";
-import resume from "./TiffanyGunawanResume.pdf";
+import resume from "./TiffanyGunawan2023Resume.pdf";
 import { Link } from "react-router-dom";
 
 const SideNavbar = () => {

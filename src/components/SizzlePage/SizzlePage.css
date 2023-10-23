@@ -42,7 +42,7 @@
   .sizzle-frame .sizzle-columns {
     align-items: flex-start;
     display: inline-flex;
-    gap: 52px;
+    gap: 55px;
     left: 345px;
     position: absolute;
     top: 475px;
@@ -57,7 +57,7 @@
     line-height: normal;
     margin-top: -1px;
     position: relative;
-    width: fit-content;
+    width: 100px;
   }
   
   .sizzle-frame .span {

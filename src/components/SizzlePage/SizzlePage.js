@@ -26,7 +26,7 @@ const SizzlePage= () => {
                   </span>
                   <span className="text-wrapper-2">
                     <br />
-                    July 2023 - Present
+                    August 2023 - Present
                     <br />
                   </span>
                 </p>

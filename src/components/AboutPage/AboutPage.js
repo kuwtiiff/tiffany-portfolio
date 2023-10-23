@@ -53,8 +53,11 @@ const AboutPage = () => {
             </p>
           </div>
           <div className="bottom-banner-image">
+          <a href="https://www.linkedin.com/in/tiffany-gunawan30" target="_blank" rel="noopener noreferrer">
             <img className="img" alt="bottombanner" src={bottombanner} />
-          </div>
+          </a>
+        </div>
+
         </div>
       </div>
     </div>
