@@ -1,9 +1,8 @@
 import './App.css';
 import HomePage from './components/HomePage/HomePage';
 import GoogleClubPage from './components/GoogleClubPage/GoogleClubPage';
-import BobecoApp from './components/BobecoPage/BobecoPage';
+import BobecoApp from './components/BobecoPage/BobecoPage.js';
 import DesignCo from './components/DesignCoPage/DesignCoPage';
-import SizzlePage from './components/SizzlePage/SizzlePage';
 import About from './components/AboutPage/AboutPage';
 import Resume from './components/ResumePage/ResumePage';
 
@@ -20,7 +19,6 @@ function App() {
               <Route path="/bobeco-app" element={<BobecoApp />} />
               <Route path="/design-co" element={<DesignCo />} />
               <Route path="/dsc-club" element={<GoogleClubPage />} />
-              <Route path="/sizzle" element={<SizzlePage />} />
               <Route path="/about" element={<About />} />
               <Route path="/resume" element={<Resume />} />
           </Routes>

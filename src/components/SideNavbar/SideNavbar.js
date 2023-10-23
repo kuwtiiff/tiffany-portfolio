@@ -1,11 +1,13 @@
 import React from "react";
 import "./SideNavbar.css";
+import resume from "./TiffanyGunawan2023Resume.pdf";
 import { Link } from "react-router-dom";
-import { CSSTransition } from "react-transition-group"; // Import CSSTransition
-
-import resume from "./TiffanyGunawanResume.pdf";
 
 const SideNavbar = () => {
+  const handleClick = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div className="sidenav">
       <h2 className="sidenav-title">Tiffany Gunawan</h2>
@@ -25,9 +27,6 @@ const SideNavbar = () => {
               </li>
               <li>
                 <Link to="/dsc-club">Google Developer Student Clubs</Link>
-              </li>
-              <li>
-                <Link to="/sizzle-app">Sizzle App</Link>
               </li>
             </ul>
           </li>

@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 .home-container {
-    padding-bottom: 255px;
+    /* background: #FBF8E8; */
+  
+
 }
+
 
 .home-container h1 {
     display: inline-block;
@@ -80,14 +83,14 @@
     margin-top: -90px;
 }
 
-.bobeco-container .bobeco-heading2 h1 {
+.bobeco-heading2 h1 {
     color: rgba(61, 88, 36, 0.60);
     font-family: Staatliches;
-    font-size: 61px;
+    font-size: 70px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 30px;  
+    margin-top: 30px;
 }
 
 .bobeco-concept{
@@ -96,12 +99,10 @@
 }
 
 .right-content img {
-    max-height: 100px; /* Adjust the image size to fit the container */
-    max-width: 100px;
+    max-height: 100%; /* Adjust the image size to fit the container */
     margin-right: 100px; /* Provide some margin if necessary */
-    margin-left: 815px;
-    margin-top: -300px;
-    margin-bottom: 180px;
+    margin-left: 500px;
+    margin-top: -120px;
 }
 
 .bobeco-concept h2 {
@@ -113,9 +114,12 @@
     font-weight: 400;
 }
 
+.bobeco-concept {
+   margin-top: -50px;
+}
+
 .bobeco-desc{
     margin-left: 45px;
-    width: 605px;
 }
 
 .bobeco-desc h2 {
@@ -186,20 +190,31 @@
 .designco-heading h1 {
     color: #145F59;
     font-family: Staatliches;
-    font-size: 61px;
+    font-size: 70px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin-top: 45px;
 }
 
+.designco-icon {
+    margin-left: 10px;
+    margin-top: -30px;
+}
+.designco-icon img {
+    margin-top: -120px;
+    margin-left: 700px;
+    width: 100px;
+    height: 100px;
+}
+
 .designco-desc {
     margin-left: 45px;
-    margin-top: -60px;
+    margin-top: -40px;
 }
 
 .designco-desc h2 {
-
+    width: 720px;
     color: #000;
     font-family: Karla;
     font-size: 20px;
@@ -209,6 +224,7 @@
 
 .designco-intro {
     margin-left: 45px;
+    width: 730px;
 }
 
 .designco-intro h2 {
@@ -251,7 +267,7 @@
 .google-heading h1 {
     color: #1A73E8;
     font-family: Staatliches;
-    font-size: 61px;
+    font-size: 70px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -261,6 +277,7 @@
 .google-desc {
     margin-left: 45px;
     margin-top: -40px;
+    width: 630px;
 }
 
 .google-desc h2 {
@@ -286,70 +303,12 @@
 }
 
 .google-logo {
-    margin-top: -315px;
-    margin-left: 790px;
+    margin-top: -380px;
+    margin-left: 750px;
 }
 .google-logo img {
-    width: 90px;
-    height: 40px;
-    margin-top: 93px;
-    margin-left: 20px
-}
-
-.sizzle-container {
-    border-radius: 50px;
-    background: rgba(255, 238, 212, 100);
-    width: 950px; 
-    height: 420px;   
-    flex-shrink: 0;
-    margin-left: 400px;
-    margin-top: 100px;
-    
-}
-
-.sizzle-heading {
- 
-     margin-left: 100px;
-     margin-top: 50px;
-     margin-bottom: 45px;
-}
-
-.sizzle-heading h1 {
-    color: var(--primary-colors-primary, #E35415);
-    font-family: Staatliches;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 45px;
-    }
-
-.sizzle-desc {
-    margin-left: 45px;
-    margin-top: 0px;
-}
-
-.sizzle-desc h2 {
-
-    color: #000;
-    font-family: Karla;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-}
-
-.sizzle-intro {
-    margin-left: 45px;
-}
-
-.sizzle-intro h2 {
-    color: rgba(0, 0, 0, 0.75);
-    font-family: Karla;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    width: 850px;
+    width: 170px;
+    height: 170px;
 }
 
 .sizzle-logo {

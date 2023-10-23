@@ -3,7 +3,7 @@
 
 
  .design-co-page {
-
+  padding-top: 240px;
   background-color: #ffffff;
 }
 
@@ -30,11 +30,9 @@
   
 }
 
-.designcointro-frame .designco-logo img {
+.dcologo img {
   width: 135px;
   height: 135px;
-  margin-left: 990px;
-  margin-top:-20px;
 }
 
 .design-co-page .designcointro-frame {
@@ -49,8 +47,9 @@
 .design-co-page .overlap-group-2 {
   height: 180px;
   position: absolute;
-  top: -1px;
+  top: -120px;
   width: 754px;
+
 }
 
 .design-co-page .h-1 {
@@ -61,8 +60,9 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-top: 110px;
+  margin-top: 0px;
 }
+
 
 .design-co-page .p {
   color: #000;
@@ -84,7 +84,7 @@
   left: 0;
   position: absolute;
   top: 243px;
-  margin-top: 135px;
+  margin-top: 0px;
 }
 
 .design-co-page .duration-column {
@@ -137,7 +137,7 @@
   width: 184px;
 }
 
-.design-co-page .tasks-column {
+.design-co-page .tasks-auto-layout {
   color: #000000;
   font-family: "Zen Kaku Gothic New";
   font-size: 17px;
@@ -162,7 +162,7 @@
   position: absolute;
   top: 820px;
   width: 945px;
-  margin-top: 140px;
+  margin-top: 100px;
 }
 
 .design-co-page .workshop-figma-day {
@@ -277,11 +277,12 @@
   width: 864px;
 }
 
+
+
 .design-co-page .wallet-app-title {
   height: 48px;
   left: 0;
   position: absolute;
-  margin-top: 50px;
   width: 839px;
   text-decoration: none;
 }
@@ -290,15 +291,37 @@
   text-decoration: none;
 }
 
-.youtube-icon2 img {
-  margin-left: 665px;
-  margin-top: -70px;
-  margin-bottom: 32px;
+.walletapp-image img {
+  margin-top: 40px;
 }
 
-.walletapp-image img {
-  margin-top: 70px;
+.youtube-icon {
+  width: 50px;
+  height: 50px; 
 }
+
+.youtube-icon img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 580px;
+  margin-bottom: -60px;
+
+}
+
+
+.youtube-icon2 {
+  width: 50px;
+  height: 50px;
+}
+
+.youtube-icon2 img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 670px;
+  margin-top: 70px;
+  
+}
+
 
 .design-co-page .text-wrapper-6 {
   color: #000;
@@ -318,7 +341,6 @@
   top: 99px;
   width: 805px;
 }
-
 
 
 .design-co-page .text-wrapper-7 {

@@ -1,22 +1,7 @@
 import './HomePage.css';
-import pic1 from './dscicon.png';
-import pic2 from './BobecoHeartsKetleLogo.png';
-import pic3 from './Designcologo.png';
-import pic4 from './s_sizzlelogo.png';
-import React, { useEffect } from "react";
-import { useNavigate } from 'react-router-dom';
-
-const HomePage = () => {
-    const navigate = useNavigate();
-  
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    }, []); 
-  
-    const handleClick = (route) => {
-      navigate(route);
-    };
-
+import pic1 from './dsclogo.svg'
+import pic2 from './bobeco_kettle.svg'
+const HomePage= () => {
     return (
         <div className = "home-container">
             
@@ -37,16 +22,14 @@ const HomePage = () => {
                 </h2>
 
             </div>
-            
-            <div className = "bobeco-container" onClick={() => handleClick('/bobeco-app')}>
-            
+            <div className = "bobeco-container">
+
                 <div className = "bobeco-heading2">
                     <h1>
                         BOBECO APP
                     </h1>
-
-
                 </div>
+
 
                 <div className = "bobeco-concept">
                 <h2>
@@ -60,6 +43,7 @@ const HomePage = () => {
                     Concept Prototype Kiosk App for Boba Cafe designed for an eco-friendly vending machine, which offers transparent, automated boba service, prioritizing sustainability through reusable cups and recyclable materials, while ensuring accurate, customized drink orders.
                 </h2>
             </div>
+
             <div className="right-content">
                 <img src={pic2} alt="Bobeco Kettle" />
             </div>
@@ -70,9 +54,6 @@ const HomePage = () => {
                     <h1>
                         DESIGN CO
                     </h1>
-                    <div className="designco-icon">
-                        <img src={pic3} alt="Design Co" />
-                    </div>
                 </div>
                 <div className = "designco-desc">
                     <h2>
@@ -81,13 +62,12 @@ const HomePage = () => {
                 </div>
                 <div className = "designco-intro">
                     <h2>
-                       I connected with UC San Diego's largest design community and learned more about how to make prototype designs using Figma.
-                    </h2>
+                    Being part of UC San Diego's largest design community was a game-changer. I got to dive deep into a world of creativity and innovation, as well as connect with other student designers. Through hands-on projects and workshops, I really got the hang of creating user experiences and picked up some serious skills in crafting prototypes using Figma!                    </h2>
                 </div>
             </div>    
 
 
-            <div className = "google-container" onClick={() => handleClick('/dsc-club')}>
+            <div className = "google-container">
 
                 <div className = "google-heading">
                     <h1>
@@ -108,32 +88,9 @@ const HomePage = () => {
                 <div className="google-logo">
                     <img src={pic1} alt="DSC Logo" />
                 </div>
-            </div> 
-
-            <div className = "sizzle-container" onClick={() => handleClick('/sizzle-app')}>
-            
-                <div className = "sizzle-heading">
-                    <h1>
-                        SIZZLE MOBILE/WEB APP
-                    </h1>
-                    <div className="sizzle-logo">
-                        <img src={pic4} alt="Sizzle S" />
-                    </div>
-                </div>
-                <div className = "sizzle-desc">
-                    <h2>
-                        UX/UI Designer | Dietician-Patient Web & Mobile App
-                    </h2>
-                </div>
-                <div className = "sizzle-intro">
-                    <h2>
-                    I am delighted to currently be a part of Sizzle, a pioneering startup dedicated to transforming the interaction between dieticians and patients. My role involves crafting intuitive user experiences for our web and mobile applications, to empower both users to navigate their healthcare journeys effortlessly.
-                    </h2>
-                </div>          
-            </div>         
+            </div>          
         </div>
 
-               
     ) 
 };
 

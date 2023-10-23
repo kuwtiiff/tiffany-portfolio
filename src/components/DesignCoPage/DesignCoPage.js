@@ -1,12 +1,19 @@
-import desktop from "./DesktopImageFrame.png";
-import walletapp from "./WalletAppBackgroundPic.png";
-import designcologo from "./DCOlogo.png";
+import desktop from "./DesktopImageFrame.svg";
+import walletapp from "./WalletAppBackground.svg";
+import designcologo from "./DCOlogo.svg";
 import React, { useState, useEffect } from "react";
-import youtube from "./YoutubeIcon.png";
-import youtube2 from "./YoutubeIcon2.png";
+import youtube from "./YoutubeIcon.svg";
+import youtube2 from "./YoutubeIcon2.svg";
 import "./DesignCoPage.css";
+import React, { useEffect } from "react";
+import { useNavigate } from 'react-router-dom';
 
 export const DesignCoPage = () => {
+  const navigate = useNavigate();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
   return (
     <div className="design-co-page">
       <div className="div-2">
@@ -21,7 +28,6 @@ export const DesignCoPage = () => {
                 I joined UCSD’s largest design community and learned more on how
                 to use Figma through their technical workshops :)
               </p>
-          
             </div>
             <div className="design-co-columns">
               <div className="duration-column">
@@ -118,6 +124,10 @@ export const DesignCoPage = () => {
                   <br />
                 </span>
               </p>
+
+              <div className="youtube-icon" >
+                    <img src={youtube} alt="Youtube icon" />
+                </div>
               <youtube className="youtube-icon" />
             </a>
             <a
@@ -131,6 +141,9 @@ export const DesignCoPage = () => {
             </a>
           </div>
           <div className="wallet-app">
+          <div className="youtube-icon2" >
+                <img src={youtube2} alt="Youtube icon2" />
+            </div>
             <div className="wallet-app-title">
               <youtube color="original" platform="youtube-icon" />
               <a
@@ -146,6 +159,7 @@ export const DesignCoPage = () => {
             </div>
               </a>
             </div>
+      
             <a
               href="https://www.youtube.com/watch?v=5IanQIwhA4E"
               rel="noopener noreferrer"

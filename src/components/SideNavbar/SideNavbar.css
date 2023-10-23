@@ -51,14 +51,15 @@
   }
   .submenu {
     padding-top: 30px;
+  }
 
-    
+
+  .sidenav-links a {
+    transition: transform 0.2s, font-weight 0.2s; /* Added transition effect */
   }
   
   .sidenav-links li a:hover {
-    font-weight: bold; /* Make the text bold on hover */
-    transform: scale(1.05); /* Slightly scale up on hover */
-    transition: font-size 0.2s;
+    background-color: #575757;
   }
   
 
