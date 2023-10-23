@@ -3,7 +3,7 @@
 
 
  .design-co-page {
-
+  padding-top: 240px;
   background-color: #ffffff;
 }
 
@@ -29,11 +29,12 @@
   
 }
 
-.designcologo img {
+.designco-logo img {
   width: 135px;
   height: 135px;
-  margin-right: 2000px;
-  margin-top: 150px;
+  margin-left: 985px;
+  margin-top: -260px;
+  margin-bottom: 200px;
 }
 
 .design-co-page .designcointro-frame {
@@ -85,7 +86,7 @@
   left: 0;
   position: absolute;
   top: 243px;
-  margin-top: 135px;
+  margin-top: 0px;
 }
 
 .design-co-page .duration-column {
@@ -163,7 +164,7 @@
   position: absolute;
   top: 820px;
   width: 945px;
-  margin-top: 140px;
+  margin-top: 100px;
 }
 
 .design-co-page .workshop-figma-day {
