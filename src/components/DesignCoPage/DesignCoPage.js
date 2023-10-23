@@ -1,9 +1,8 @@
-import desktop from "./DesktopImageFrame.svg";
-import walletapp from "./WalletAppBackground.svg";
-import designcologo from "./DCOlogo.svg";
-import React, { useState, useEffect } from "react";
-import youtube from "./YoutubeIcon.svg";
-import youtube2 from "./YoutubeIcon2.svg";
+import desktop from "./DesktopImageFrame.png";
+import walletapp from "./WalletAppBackgroundPic.png";
+import designcologo from "./Designcologo.png";
+import youtube from "./YoutubeIcon.png";
+import youtube2 from "./YoutubeIcon2.png";
 import "./DesignCoPage.css";
 import React, { useEffect } from "react";
 import { useNavigate } from 'react-router-dom';
@@ -26,8 +25,9 @@ export const DesignCoPage = () => {
               <h1 className="h-1">DESIGN CO</h1>
               <p className="p">
                 I joined UCSD’s largest design community and learned more on how
-                to use Figma through their technical workshops :)
+                to use Figma through their workshops :)
               </p>
+              
             </div>
             <div className="design-co-columns">
               <div className="duration-column">
@@ -117,9 +117,6 @@ export const DesignCoPage = () => {
                   BuzzHub for Students - A Design inspired by Discord
                   <br />
                 </span>
-                <div className="youtube-icon">
-                <img src={youtube} alt="Youtube Icon" />
-            </div>
                 <span className="text-wrapper-5">
                   <br />
                 </span>
@@ -154,9 +151,6 @@ export const DesignCoPage = () => {
                 <p className="text-wrapper-6">
                   UI Design a Wallet App in Figma - Full Course by Design Code
                 </p>
-                <div className="youtube-icon2">
-                <img src={youtube2} alt="Youtube Icon" />
-            </div>
               </a>
             </div>
       
