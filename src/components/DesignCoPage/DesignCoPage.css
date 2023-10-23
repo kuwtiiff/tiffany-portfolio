@@ -20,7 +20,6 @@
 .desicn-co-right-side{
   margin-top: -140px;
 }
-
 .design-co-page .desicn-co-right-side {
   background-color: #ffffff;
   height: 2656px;
@@ -30,9 +29,12 @@
   
 }
 
-.dcologo img {
+.designco-logo img {
   width: 135px;
   height: 135px;
+  margin-left: 985px;
+  margin-top: -260px;
+  margin-bottom: 200px;
 }
 
 .design-co-page .designcointro-frame {
@@ -199,13 +201,6 @@
   top: 51px;
   width: 802px;
 }
-
-.youtube-icon img {
-  margin-left: 575px;
-  margin-top: -70px;
-  margin-bottom: 23px;
-}
-
 .buzzhub-image img {
   margin-top: 50px;
 }
@@ -289,6 +284,11 @@
 
 .design-co-page .wallet-app-title a{
   text-decoration: none;
+}
+
+.dco-icon img {
+  margin-left: 1000px;
+  margin-top: 100px;
 }
 
 .walletapp-image img {
