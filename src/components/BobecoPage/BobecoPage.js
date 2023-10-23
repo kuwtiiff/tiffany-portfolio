@@ -1,8 +1,10 @@
 import './BobecoPage.css';
-import kettle from "./simplebobaketle.svg"
-import prototype from "./IpadPrototypeApp.svg"
-import branding from "./branding.svg"
-import woodenKiosk from "./WoodenKioskImages.svg"
+import kettle from "./BobecoKettleHeartLogo2.png"
+import prototype from "./IpadPrototypeApp.png"
+import branding from "./Branding.png"
+import woodenKiosk from "./WoodenKioskImages.png"
+import React, { useEffect } from "react";
+import { useNavigate } from 'react-router-dom';
 
 const BobecoPage = () => {
     const navigate = useNavigate();
