@@ -1,13 +1,14 @@
 import './App.css';
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import HomePage from './components/HomePage/HomePage';
-import GoogleClubPage from './components/GoogleClubPage/GoogleClubPage';
+import HomePage from './components/HomePage/HomePage.js';
+import GoogleClubPage from './components/GoogleClubPage/GoogleClubPage.js';
 import BobecoApp from './components/BobecoPage/BobecoPage.js';
-import DesignCo from './components/DesignCoPage/DesignCoPage';
-import About from './components/AboutPage/AboutPage';
-import Resume from './components/ResumePage/ResumePage';
-import SideNavbar from './components/SideNavbar/SideNavbar';
+import DesignCo from './components/DesignCoPage/DesignCoPage.js';
+import SizzlePage from './components/SizzlePage/SizzlePage.js';
+import About from './components/AboutPage/AboutPage.js';
+import Resume from './components/ResumePage/ResumePage.js';
+import SideNavbar from './components/SideNavbar/SideNavbar.js';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
               <Route path="/bobeco-app" element={<BobecoApp />} />
               <Route path="/design-co" element={<DesignCo />} />
               <Route path="/dsc-club" element={<GoogleClubPage />} />
+              <Route path="/sizzle-app" element={<SizzlePage />} />
               <Route path="/about" element={<About />} />
               <Route path="/resume" element={<Resume />} />
           </Routes>

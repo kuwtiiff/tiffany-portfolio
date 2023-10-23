@@ -62,14 +62,14 @@
      margin-top: -90px;
 }
 
-.bobeco-heading2 h1 {
+.bobeco-container .bobeco-heading2 h1{
     color: rgba(61, 88, 36, 0.60);
     font-family: Staatliches;
-    font-size: 70px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 30px;
+    margin-top: 45px;   
 }
 
 .bobeco-concept{
@@ -78,9 +78,12 @@
 }
 
 .right-content img {
-    max-height: 100%;
-    margin-left: 735px;
-    margin-top: -140px;
+    max-height: 100px;
+    max-width: 100px;
+    margin-left: 720px;
+    margin-top: -180px;
+    margin-bottom: 40px;
+
 }
 
 .bobeco-concept h2 {
@@ -92,9 +95,13 @@
     font-weight: 400;
 }
 
+.bobeco-concept {
+   margin-top: -50px;
+}
+
 .bobeco-desc{
     margin-left: 45px;
-    width: 650px;
+    width: 850px;
 }
 
 .bobeco-desc h2 {
@@ -174,20 +181,32 @@
 .designco-heading h1 {
     color: #145F59;
     font-family: Staatliches;
-    font-size: 70px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin-top: 45px;
 }
 
+.designco-icon {
+    margin-left: 10px;
+    margin-top: -30px;
+}
+.designco-icon img {
+    margin-top: -120px;
+    margin-left: 700px;
+    width: 100px;
+    height: 100px;
+}
+
 .designco-desc {
     margin-left: 45px;
-    margin-top: -40px;
+    margin-top: -20px;
+    width: 730px;
 }
 
 .designco-desc h2 {
-
+    width: 720px;
     color: #000;
     font-family: Karla;
     font-size: 20px;
@@ -197,6 +216,7 @@
 
 .designco-intro {
     margin-left: 45px;
+    width: 730px;
 }
 
 .designco-intro h2 {
@@ -230,7 +250,7 @@
 .google-heading h1 {
     color: #1A73E8;
     font-family: Staatliches;
-    font-size: 70px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -240,6 +260,7 @@
 .google-desc {
     margin-left: 45px;
     margin-top: -40px;
+    width: 630px;
 }
 
 .google-desc h2 {
@@ -265,7 +286,7 @@
 }
 
 .google-logo {
-    margin-top: -310px;
+    margin-top: -220px;
     margin-left: 800px;
 }
 
@@ -291,10 +312,17 @@
 }
 
 
+.sizzle-logo img {
+   margin-left: 860px;
+   margin-bottom: 95px;
+   margin-top: -160px; /* Adjust this value to move the logo up */
+   width: 40px;
+   height: 40px;
+}
 
 .sizzle-container {
     border-radius: 50px;
-    background: rgba(172, 193, 246, 0.30);
+    background: #FFEED5;
     width: 950px; 
     height: 420px;   
     flex-shrink: 0;
@@ -311,9 +339,9 @@
 }
 
 .sizzle-heading h1 {
-    color: #145F59;
+    color: #E35415;
     font-family: Staatliches;
-    font-size: 61px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -322,7 +350,7 @@
 
 .sizzle-desc {
     margin-left: 45px;
-    margin-top: -60px;
+    margin-top: -50px;
 }
 
 .sizzle-desc h2 {

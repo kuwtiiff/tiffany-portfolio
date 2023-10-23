@@ -173,6 +173,12 @@
     width: 920px;
   }
   
+.facebook-icon img {
+  margin-left: 160px;
+  margin-top:0px;
+  width: 35px;
+}
+
   .developer-student .text-wrapper-3 {
     color: #000000;
     font-size: 70px;
@@ -186,14 +192,15 @@
   }
   
   .developer-student .dscbadgelogo {
-    height: 68px;
-    left: 690px;
+    height: 76px;
+    margin-left: 1050px;
+    margin-top: -20px;
     object-fit: cover;
     position: absolute;
-    top: 50px;
-    width: 67px;
-    
+    top: -70px;
+    width: 75px;
   }
+
 
 
   .developer-student .meet-our-team {

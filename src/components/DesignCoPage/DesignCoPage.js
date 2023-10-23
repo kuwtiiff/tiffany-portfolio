@@ -1,7 +1,6 @@
 import desktop from "./DesktopImageFrame.png"
 import walletapp from "./WalletAppBackgroundPic.png"
 import designcologo from "./Designcologo.png"
-import React, { useState, useEffect } from "react";
 import youtube from "./YoutubeIcon.png";
 import youtube2 from "./YoutubeIcon.png";
 import "./DesignCoPage.css";

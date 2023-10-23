@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from "react";
-import group from "./TeamPhoto.svg"
-import badge from "./dscbadgelogo.svg"
-import banner from "./dscbanner.svg"
-import fb from "./facebookIcon.svg"
-import workshop from "./WorkshopsPics.svg"
-import flyer from "./GoogleFlyersImages.svg"
+import group from "./TeamPhoto.png"
+import badge from "./dscbadgelogo.png"
+import banner from "./dscbanner.png"
+import fb from "./FacebookLogo.png"
+import workshop from "./WorkshopsPics.png"
+import flyer from "./GoogleFlyersImages.png"
 import './GoogleClubPage.css';
 const GoogleClubPage= () => {
     
@@ -121,9 +120,17 @@ const GoogleClubPage= () => {
             <div className="meet-our-team">
               <div className="overlap">
                 <div className="text-wrapper-5">Meet Our Team</div>
-             
+                <div className="facebook-icon">
+                  <a href="https://www.facebook.com/dscsdmc/" target="_blank" rel="noopener noreferrer">
+                      <img src={fb} alt="Facebook" />
+                  </a>
               </div>
-              <img className="google" alt="Google" src={group} />
+
+              </div>
+              <a href="https://www.facebook.com/dscsdmc/" target="_blank" rel="noopener noreferrer">
+                <img className="google" alt="Google" src={group} />
+            </a>
+
             </div>
             <div className="flyer-designs">
               <img className="google-flyers-images" alt="Google flyers images" src={flyer} />

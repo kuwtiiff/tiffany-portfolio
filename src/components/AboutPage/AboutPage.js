@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import bottombanner from "./BottomPageBanner.svg";
+import bottombanner from "./BottomPageBanner.png";
 import "./AboutPage.css";
 const AboutPage = () => {
   return (

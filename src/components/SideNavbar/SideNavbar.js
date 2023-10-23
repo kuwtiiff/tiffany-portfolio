@@ -26,6 +26,9 @@ const SideNavbar = () => {
               <li>
                 <Link to="/dsc-club">Google Developer Student Clubs</Link>
               </li>
+              <li>
+                <Link to="/sizzle-app">Sizzle App</Link>
+              </li>
             </ul>
           </li>
         </CSSTransition>

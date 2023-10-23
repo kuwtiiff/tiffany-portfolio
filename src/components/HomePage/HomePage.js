@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
 import './HomePage.css';
 import {useNavigate} from 'react-router-dom';
 import pic1 from './dscicon.png';
 import pic2 from './BobecoHeartsKetleLogo.png';
+import pic3 from './Designcologo.png'
 import pic4 from './s_sizzlelogo.png';
 
 const HomePage= () => {
@@ -40,7 +40,11 @@ const HomePage= () => {
                     <h1>
                         BOBECO APP
                     </h1>
+                    <div className="right-content">
+                        <img src={pic2} alt="Bobeco Kettle" />
+                    </div>
                 </div>
+
 
                 <div className = "bobeco-concept">
                 <h2>
@@ -56,9 +60,6 @@ const HomePage= () => {
             
             </div>
 
-            <div className="right-content">
-                <img src={pic2} alt="Bobeco Kettle" />
-            </div>
             </div>
 
             <div className = "designco-container" onClick={() => handleClick('/design-co')}>
@@ -66,6 +67,9 @@ const HomePage= () => {
                     <h1>
                         DESIGN CO
                     </h1>
+                    <div className="designco-icon">
+                        <img src={pic3} alt="Design Icon" />
+                    </div>
                 </div>
 
                 <div className = "designco-desc">
@@ -75,12 +79,10 @@ const HomePage= () => {
                 </div>
                 <div className = "designco-intro">
                     <h2>
-                       I connected with UC San Diego's largest design community and learned more about how to make prototype designs using Figma.
-                    </h2>
+                    Being part of UC San Diego's largest design community was a game-changer. I got to dive deep into a world of creativity and innovation, as well as connect with other student designers. Through hands-on projects and workshops, I really got the hang of creating user experiences and picked up some serious skills in crafting prototypes using Figma!                    </h2>
                 </div>
             </div>    
-
-
+            
             <div className = "google-container" onClick={() => handleClick('/dsc-club')}>
 
                 <div className = "google-heading">
@@ -109,10 +111,11 @@ const HomePage= () => {
                 <h1>
                     SIZZLE MOBILE/WEB APP
                 </h1>
-                <div className="sizzle-logo">
+
+            </div>
+            <div className="sizzle-logo">
                     <img src={pic4} alt="Sizzle S" />
                 </div>
-            </div>
             <div className="sizzle-desc">
                 <h2>
                     UX/UI Designer | Dietician-Patient Web & Mobile App
