@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 .home-container {
-    /* background: #FBF8E8; */
-  
-
+    /* Your existing styles */
+    padding-bottom: 100px; /* Add some padding at the bottom (adjust the value as needed) */
 }
 
 
@@ -32,7 +31,7 @@
 .jobtitle-heading {
     margin-top: -40px;
     font-family: Staatliches;
-    margin-left: 405px; 
+    margin-left: -60px; 
 }
 .intro-heading {
     width: 800px;
@@ -48,49 +47,29 @@
     line-height: normal;
 }
 
-/* Add this to your existing CSS file */
-
-.bobeco-container,
-.designco-container,
-.google-container,
-.sizzle-container {
-  /* ... Your existing styles ... */
-  cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s; /* Add transition effects */
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle drop shadow */
-}
-
-.bobeco-container:hover,
-.designco-container:hover,
-.google-container:hover,
-.sizzle-container:hover {
-  transform: scale(1.05); /* Scale up the container slightly on hover */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Increase shadow size on hover */
-}
-
 .bobeco-container {
     border-radius: 50px;
     background: rgba(189, 201, 115, 0.30);
     width: 950px; 
-    height: 400px;   
+    height: 420px;   
     flex-shrink: 0;
     margin-left: 400px;
     margin-top: 200px;
 }
 
 .bobeco-heading2 {
-    margin-left: 100px;
-    margin-top: -90px;
+     margin-left: 100px;
+     margin-top: -90px;
 }
 
-.bobeco-heading2 h1 {
+.bobeco-container .bobeco-heading2 h1{
     color: rgba(61, 88, 36, 0.60);
     font-family: Staatliches;
-    font-size: 70px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 30px;
+    margin-top: 45px;   
 }
 
 .bobeco-concept{
@@ -99,10 +78,12 @@
 }
 
 .right-content img {
-    max-height: 100%; /* Adjust the image size to fit the container */
-    margin-right: 100px; /* Provide some margin if necessary */
-    margin-left: 500px;
-    margin-top: -120px;
+    max-height: 100px;
+    max-width: 100px;
+    margin-left: 720px;
+    margin-top: -180px;
+    margin-bottom: 40px;
+
 }
 
 .bobeco-concept h2 {
@@ -120,6 +101,7 @@
 
 .bobeco-desc{
     margin-left: 45px;
+    width: 850px;
 }
 
 .bobeco-desc h2 {
@@ -129,11 +111,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    
 }
 
 
-
+.bobeco-image {
+    margin-left: 500px; 
+    margin-top: -210px;
+}
 
 
 /* Media query for larger screens */
@@ -165,9 +149,16 @@
         margin-top: 0px; */
     }
 
+    
 
+    .bobeco-image {
+        margin-left: 400px;
+        margin-top:-200px;
+        width: 100%;
+        height: 100%;
+        transform: translate3d(0px, 0px, 0px);
     }
-
+}
 
 .designco-container {
     border-radius: 50px;
@@ -190,7 +181,7 @@
 .designco-heading h1 {
     color: #145F59;
     font-family: Staatliches;
-    font-size: 70px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -210,7 +201,8 @@
 
 .designco-desc {
     margin-left: 45px;
-    margin-top: -40px;
+    margin-top: -20px;
+    width: 730px;
 }
 
 .designco-desc h2 {
@@ -237,15 +229,6 @@
     width: 850px;
 }
 
-.designco-icon img {
-    max-height: 100px;
-    max-width: 100px;
-    margin-right: 100px; /* Provide some margin if necessary */
-    margin-left: 710px;
-    margin-top: -380px;
-    margin-bottom: 45px;
-}
-
 .google-container {
     border-radius: 50px;
     background: rgba(225, 217, 172, 0.30);
@@ -267,7 +250,7 @@
 .google-heading h1 {
     color: #1A73E8;
     font-family: Staatliches;
-    font-size: 70px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -303,20 +286,93 @@
 }
 
 .google-logo {
-    margin-top: -380px;
-    margin-left: 750px;
-}
-.google-logo img {
-    width: 170px;
-    height: 170px;
+    margin-top: -220px;
+    margin-left: 800px;
 }
 
-.sizzle-logo {
-    margin-left: 750px; /* Push the logo to the right */
-    margin-top: -100px;
+
+/* Add this to your existing CSS file */
+
+.bobeco-container,
+.designco-container,
+.google-container,
+.sizzle-container {
+  /* ... Your existing styles ... */
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s; /* Add transition effects */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle drop shadow */
 }
+
+.bobeco-container:hover,
+.designco-container:hover,
+.google-container:hover,
+.sizzle-container:hover {
+  transform: scale(1.05); /* Scale up the container slightly on hover */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Increase shadow size on hover */
+}
+
+
 .sizzle-logo img {
-    width: 36px;
-    height: 33px;
-
+   margin-left: 860px;
+   margin-bottom: 95px;
+   margin-top: -160px; /* Adjust this value to move the logo up */
+   width: 40px;
+   height: 40px;
 }
+
+.sizzle-container {
+    border-radius: 50px;
+    background: #FFEED5;
+    width: 950px; 
+    height: 420px;   
+    flex-shrink: 0;
+    margin-left: 400px;
+    margin-top: 100px;
+    
+}
+
+.sizzle-heading {
+ 
+     margin-left: 100px;
+     margin-top: 50px;
+   
+}
+
+.sizzle-heading h1 {
+    color: #E35415;
+    font-family: Staatliches;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 45px;
+}
+
+.sizzle-desc {
+    margin-left: 45px;
+    margin-top: -50px;
+}
+
+.sizzle-desc h2 {
+
+    color: #000;
+    font-family: Karla;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.sizzle-intro {
+    margin-left: 45px;
+}
+
+.sizzle-intro h2 {
+    color: rgba(0, 0, 0, 0.75);
+    font-family: Karla;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 850px;
+}
+
