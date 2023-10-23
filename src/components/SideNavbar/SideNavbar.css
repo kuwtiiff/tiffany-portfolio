@@ -56,14 +56,18 @@
   }
   
   .sidenav-links li a:hover {
-    background-color: #575757;
+    font-weight: bold; /* Make the text bold on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
+    transition: font-size 0.2s;
   }
   
 
 .sidenav-links li a.active-link {
   font-weight: bold;
   color: black;
+  transition: transform 0.2s, font-weight 0.2s; 
 }
+
 
 .fade-enter {
   opacity: 0;

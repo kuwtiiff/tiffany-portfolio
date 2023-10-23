@@ -1,10 +1,25 @@
-import React, { useState, useEffect } from "react";
 import './HomePage.css';
-import pic1 from './dsclogo.svg'
-import pic2 from './bobeco_kettle.svg'
-const HomePage= () => {
+import pic1 from './dscicon.png';
+import pic2 from './BobecoHeartsKetleLogo.png';
+import pic3 from './Designcologo.png';
+import pic4 from './s_sizzlelogo.png';
+import React, { useEffect } from "react";
+import { useNavigate } from 'react-router-dom';
+
+const HomePage = () => {
+    const navigate = useNavigate();
+  
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []); 
+  
+    const handleClick = (route) => {
+      navigate(route);
+    };
+
     return (
         <div className = "home-container">
+            
             <div className = "home-title">
                 <h1>
                     Tiffany Gunawan
@@ -18,16 +33,19 @@ const HomePage= () => {
             <div className = "intro-heading">
                 <h2>
                     Hello, I studied design + interaction at UC San Diego and I love creating meaningul
-                    and user-centric experiences that leave a positive impact on people's lives.
+                    and user-centric experiences that leave a positive impact.
                 </h2>
 
             </div>
-            <div className = "bobeco-container">
-
+            
+            <div className = "bobeco-container" onClick={() => handleClick('/bobeco-app')}>
+            
                 <div className = "bobeco-heading2">
                     <h1>
                         BOBECO APP
                     </h1>
+
+
                 </div>
 
                 <div className = "bobeco-concept">
@@ -39,27 +57,26 @@ const HomePage= () => {
 
             <div className = "bobeco-desc">
                 <h2>
-                    Prototype Kiosk App for Boba Cafe
+                    Concept Prototype Kiosk App for Boba Cafe designed for an eco-friendly vending machine, which offers transparent, automated boba service, prioritizing sustainability through reusable cups and recyclable materials, while ensuring accurate, customized drink orders.
                 </h2>
-            
             </div>
-
             <div className="right-content">
                 <img src={pic2} alt="Bobeco Kettle" />
             </div>
             </div>
 
-            <div className = "designco-container">
-
+            <div className = "designco-container" onClick={() => handleClick('/design-co')}>
                 <div className = "designco-heading">
                     <h1>
                         DESIGN CO
                     </h1>
+                    <div className="designco-icon">
+                        <img src={pic3} alt="Design Co" />
+                    </div>
                 </div>
-
                 <div className = "designco-desc">
                     <h2>
-                        Workshops | Design Community
+                        Workshops | Design Community | UC San Diego
                     </h2>
                 </div>
                 <div className = "designco-intro">
@@ -70,7 +87,7 @@ const HomePage= () => {
             </div>    
 
 
-            <div className = "google-container">
+            <div className = "google-container" onClick={() => handleClick('/dsc-club')}>
 
                 <div className = "google-heading">
                     <h1>
@@ -91,9 +108,32 @@ const HomePage= () => {
                 <div className="google-logo">
                     <img src={pic1} alt="DSC Logo" />
                 </div>
-            </div>          
+            </div> 
+
+            <div className = "sizzle-container" onClick={() => handleClick('/sizzle-app')}>
+            
+                <div className = "sizzle-heading">
+                    <h1>
+                        SIZZLE MOBILE/WEB APP
+                    </h1>
+                    <div className="sizzle-logo">
+                        <img src={pic4} alt="Sizzle S" />
+                    </div>
+                </div>
+                <div className = "sizzle-desc">
+                    <h2>
+                        UX/UI Designer | Dietician-Patient Web & Mobile App
+                    </h2>
+                </div>
+                <div className = "sizzle-intro">
+                    <h2>
+                    I am delighted to currently be a part of Sizzle, a pioneering startup dedicated to transforming the interaction between dieticians and patients. My role involves crafting intuitive user experiences for our web and mobile applications, to empower both users to navigate their healthcare journeys effortlessly.
+                    </h2>
+                </div>          
+            </div>         
         </div>
 
+               
     ) 
 };
 

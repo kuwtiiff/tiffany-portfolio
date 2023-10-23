@@ -1,9 +1,9 @@
-import desktop from "./DesktopImageFrame.svg";
-import walletapp from "./WalletAppBackground.svg";
-import designcologo from "./DCOlogo.svg";
+import desktop from "./DesktopImageFrame.png";
+import walletapp from "./WalletAppBackgroundPic.png";
+import designcologo from "./DCOlogo.png";
 import React, { useState, useEffect } from "react";
-import youtube from "./YoutubeIcon.svg";
-import youtube2 from "./YoutubeIcon2.svg";
+import youtube from "./YoutubeIcon.png";
+import youtube2 from "./YoutubeIcon2.png";
 import "./DesignCoPage.css";
 
 export const DesignCoPage = () => {
@@ -12,12 +12,16 @@ export const DesignCoPage = () => {
       <div className="div-2">
         <div className="desicn-co-right-side">
           <div className="designcointro-frame">
+          <div className="designco-logo">
+                <img src={designcologo} alt="DSC Icon" />
+            </div>
             <div className="overlap-group-2">
               <h1 className="h-1">DESIGN CO</h1>
               <p className="p">
                 I joined UCSD’s largest design community and learned more on how
-                to use Figma through their workshops :)
+                to use Figma through their technical workshops :)
               </p>
+          
             </div>
             <div className="design-co-columns">
               <div className="duration-column">
@@ -76,11 +80,6 @@ export const DesignCoPage = () => {
               </p>
             </div>
           </div>
-          {/* <div className = "dcologo">
-            <a href="https://ucsddesign.co/" rel="noopener noreferrer" target="_blank">
-              <img className="img" alt="DCOlogo" src={designcologo} />
-            </a>
-          </div> */}
 
           <div className="workshopfigma-frame">
             <p className="workshop-figma-day">
@@ -96,9 +95,8 @@ export const DesignCoPage = () => {
               Figma Day Workshop started with an overview of Figma, an
               introduction of tools, and simple prototyping.
               <br />
-              After attending, I decided to follow a YouTube tutorial by
-              DesignCode, one of my favorite YouTubers to practice utilizing
-              Figma
+              After attending, I decided to follow an in-depth YouTube tutorial on designing apps by one of my favorite YouTubers, DesignCode, to practice utilizing
+              Figma and the features it has to offer!
             </p>
           </div>
           <div className="buzzhubfigma-frame">
@@ -113,6 +111,9 @@ export const DesignCoPage = () => {
                   BuzzHub for Students - A Design inspired by Discord
                   <br />
                 </span>
+                <div className="youtube-icon">
+                <img src={youtube} alt="Youtube Icon" />
+            </div>
                 <span className="text-wrapper-5">
                   <br />
                 </span>
@@ -140,6 +141,9 @@ export const DesignCoPage = () => {
                 <p className="text-wrapper-6">
                   UI Design a Wallet App in Figma - Full Course by Design Code
                 </p>
+                <div className="youtube-icon2">
+                <img src={youtube2} alt="Youtube Icon" />
+            </div>
               </a>
             </div>
             <a

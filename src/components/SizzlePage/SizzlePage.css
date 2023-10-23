@@ -1,0 +1,65 @@
+.box {
+    height: 305px;
+    width: 785px;
+  }
+  
+  .box .sizzle-container {
+    height: 305px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 789px;
+  }
+  
+  .box .overlap-group {
+    background-color: #e1d8ab4c;
+    border-radius: 50px;
+    height: 305px;
+    position: relative;
+    width: 785px;
+  }
+  
+  .box .text-wrapper {
+    color: #e35314;
+    font-family: "Staatliches-Regular", Helvetica;
+    font-size: 50px;
+    font-weight: 400;
+    left: 31px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 33px;
+    width: 651px;
+  }
+  
+  .box .UX-UI-designer {
+    color: transparent;
+    font-family: "Karla-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 31px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 103px;
+    width: 693px;
+  }
+  
+  .box .span {
+    color: #000000;
+  }
+  
+  .box .text-wrapper-2 {
+    color: #000000bf;
+    font-family: "Karla-Light", Helvetica;
+    font-weight: 300;
+  }
+  
+  .box .sizzle-logo {
+    height: 33px;
+    left: 704px;
+    position: absolute;
+    top: 48px;
+    width: 36px;
+  }
+  
