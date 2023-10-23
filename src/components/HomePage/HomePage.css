@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 .home-container {
-    /* background: #FBF8E8; */
-  
-
+    /* Your existing styles */
+    padding-bottom: 100px; /* Add some padding at the bottom (adjust the value as needed) */
 }
+
 
 .home-container h1 {
     display: inline-block;
@@ -274,7 +274,8 @@
 
 .bobeco-container,
 .designco-container,
-.google-container {
+.google-container,
+.sizzle-container {
   /* ... Your existing styles ... */
   cursor: pointer;
   transition: transform 0.2s, box-shadow 0.2s; /* Add transition effects */
@@ -283,7 +284,66 @@
 
 .bobeco-container:hover,
 .designco-container:hover,
-.google-container:hover {
+.google-container:hover,
+.sizzle-container:hover {
   transform: scale(1.05); /* Scale up the container slightly on hover */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Increase shadow size on hover */
+}
+
+
+
+.sizzle-container {
+    border-radius: 50px;
+    background: rgba(172, 193, 246, 0.30);
+    width: 950px; 
+    height: 420px;   
+    flex-shrink: 0;
+    margin-left: 400px;
+    margin-top: 100px;
+    
+}
+
+.sizzle-heading {
+ 
+     margin-left: 100px;
+     margin-top: 50px;
+   
+}
+
+.sizzle-heading h1 {
+    color: #145F59;
+    font-family: Staatliches;
+    font-size: 61px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 45px;
+}
+
+.sizzle-desc {
+    margin-left: 45px;
+    margin-top: -60px;
+}
+
+.sizzle-desc h2 {
+
+    color: #000;
+    font-family: Karla;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.sizzle-intro {
+    margin-left: 45px;
+}
+
+.sizzle-intro h2 {
+    color: rgba(0, 0, 0, 0.75);
+    font-family: Karla;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 850px;
 }
