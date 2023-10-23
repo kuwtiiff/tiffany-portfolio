@@ -3,8 +3,16 @@ import kettle from "./BobecoKettleHeartLogo2.png"
 import prototype from "./IpadPrototypeApp.png"
 import branding from "./Branding.png"
 import woodenKiosk from "./WoodenKioskImages.png"
+import React, { useEffect } from "react";
+import { useNavigate } from 'react-router-dom';
 
 const BobecoPage = () => {
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return(
         
         <div className = "bobeco-container2">

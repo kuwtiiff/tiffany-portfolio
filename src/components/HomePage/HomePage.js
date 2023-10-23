@@ -1,17 +1,21 @@
 import './HomePage.css';
-import {useNavigate} from 'react-router-dom';
+import React, { useEffect } from "react";
+import {useNavigate, useLocation} from 'react-router-dom';
 import pic1 from './dscicon.png';
 import pic2 from './BobecoHeartsKetleLogo.png';
 import pic3 from './Designcologo.png'
 import pic4 from './s_sizzlelogo.png';
 
-const HomePage= () => {
+const HomePage = () => {
     const navigate = useNavigate();
+    const location = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to the top when the URL changes
+    }, [location.pathname]); // Listen for changes in the URL
 
     const handleClick = (route) => {
         navigate(route);
-        window.scrollTo(0, 0); // This will scroll to the top of the page
-
     };
 
     return (
@@ -82,7 +86,7 @@ const HomePage= () => {
                     Being part of UC San Diego's largest design community was a game-changer. I got to dive deep into a world of creativity and innovation, as well as connect with other student designers. Through hands-on projects and workshops, I really got the hang of creating user experiences and picked up some serious skills in crafting prototypes using Figma!                    </h2>
                 </div>
             </div>    
-            
+
             <div className = "google-container" onClick={() => handleClick('/dsc-club')}>
 
                 <div className = "google-heading">
