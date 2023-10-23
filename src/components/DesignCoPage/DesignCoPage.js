@@ -4,8 +4,15 @@ import designcologo from "./Designcologo.png"
 import youtube from "./YoutubeIcon.png";
 import youtube2 from "./YoutubeIcon.png";
 import "./DesignCoPage.css";
+import React, { useEffect } from "react";
+import { useNavigate } from 'react-router-dom';
 
 export const DesignCoPage = () => {
+  const navigate = useNavigate();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
   return (
     <div className="design-co-page">
       <div className="div-2">

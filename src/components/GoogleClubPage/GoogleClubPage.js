@@ -5,8 +5,15 @@ import fb from "./FacebookLogo.png"
 import workshop from "./WorkshopsPics.png"
 import flyer from "./GoogleFlyersImages.png"
 import './GoogleClubPage.css';
+import React, { useEffect } from "react";
+import { useNavigate } from 'react-router-dom';
+
 const GoogleClubPage= () => {
-    
+  const navigate = useNavigate();
+
+  useEffect(() => {
+      window.scrollTo(0, 0);
+  }, []);
 
     return(
         <div className="developer-student">

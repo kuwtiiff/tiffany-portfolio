@@ -1,22 +1,22 @@
 import './HomePage.css';
 import React, { useEffect } from "react";
-import {useNavigate, useLocation} from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 import pic1 from './dscicon.png';
 import pic2 from './BobecoHeartsKetleLogo.png';
 import pic3 from './Designcologo.png'
 import pic4 from './s_sizzlelogo.png';
 
 const HomePage = () => {
-    const navigate = useNavigate();
-    const location = useLocation();
+  const navigate = useNavigate();
 
-    useEffect(() => {
-        window.scrollTo(0, 0); // Scroll to the top when the URL changes
-    }, [location.pathname]); // Listen for changes in the URL
+  useEffect(() => {
+      window.scrollTo(0, 0);
+  }, []);
+  
+  const handleClick = (path) => {
+    navigate(path);
+  };
 
-    const handleClick = (route) => {
-        navigate(route);
-    };
 
     return (
         <div className = "home-container">
