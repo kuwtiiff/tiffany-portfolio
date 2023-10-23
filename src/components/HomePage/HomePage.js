@@ -1,7 +1,23 @@
 import './HomePage.css';
-import pic1 from './dsclogo.svg'
-import pic2 from './bobeco_kettle.svg'
-const HomePage= () => {
+import React, { useEffect } from "react";
+import {useNavigate} from 'react-router-dom';
+import pic1 from './dscicon.png';
+import pic2 from './BobecoHeartsKetleLogo.png';
+import pic3 from './Designcologo.png'
+import pic4 from './s_sizzlelogo.png';
+
+const HomePage = () => {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+      window.scrollTo(0, 0);
+  }, []);
+  
+  const handleClick = (path) => {
+    navigate(path);
+  };
+
+
     return (
         <div className = "home-container">
             
@@ -18,16 +34,19 @@ const HomePage= () => {
             <div className = "intro-heading">
                 <h2>
                     Hello, I studied design + interaction at UC San Diego and I love creating meaningul
-                    and user-centric experiences that leave a positive impact.
+                    and user-centric experiences that leave a positive impact on people's lives.
                 </h2>
 
             </div>
-            <div className = "bobeco-container">
-
+            
+            <div className = "bobeco-container" onClick={() => handleClick('/bobeco-app')}>
                 <div className = "bobeco-heading2">
                     <h1>
                         BOBECO APP
                     </h1>
+                    <div className="right-content">
+                        <img src={pic2} alt="Bobeco Kettle" />
+                    </div>
                 </div>
 
 
@@ -42,11 +61,9 @@ const HomePage= () => {
                 <h2>
                     Concept Prototype Kiosk App for Boba Cafe designed for an eco-friendly vending machine, which offers transparent, automated boba service, prioritizing sustainability through reusable cups and recyclable materials, while ensuring accurate, customized drink orders.
                 </h2>
+            
             </div>
 
-            <div className="right-content">
-                <img src={pic2} alt="Bobeco Kettle" />
-            </div>
             </div>
 
             <div className = "designco-container" onClick={() => handleClick('/design-co')}>
@@ -54,7 +71,11 @@ const HomePage= () => {
                     <h1>
                         DESIGN CO
                     </h1>
+                    <div className="designco-icon">
+                        <img src={pic3} alt="Design Icon" />
+                    </div>
                 </div>
+
                 <div className = "designco-desc">
                     <h2>
                         Workshops | Design Community | UC San Diego
@@ -66,8 +87,7 @@ const HomePage= () => {
                 </div>
             </div>    
 
-
-            <div className = "google-container">
+            <div className = "google-container" onClick={() => handleClick('/dsc-club')}>
 
                 <div className = "google-heading">
                     <h1>
@@ -88,8 +108,31 @@ const HomePage= () => {
                 <div className="google-logo">
                     <img src={pic1} alt="DSC Logo" />
                 </div>
+            </div>  
+
+            <div className="sizzle-container" onClick={() => handleClick('/sizzle-app')}>
+            <div className="sizzle-heading">
+                <h1>
+                    SIZZLE MOBILE/WEB APP
+                </h1>
+             
+            </div>
+            <div className="sizzle-logo">
+                    <img src={pic4} alt="Sizzle S" />
+                </div>
+            <div className="sizzle-desc">
+                <h2>
+                    UX/UI Designer | Dietician-Patient Web & Mobile App
+                </h2>
+            </div>
+            <div className="sizzle-intro">
+                <h2>
+                    I am delighted to currently be a part of Sizzle, a pioneering startup dedicated to transforming the interaction between dieticians and patients. My role involves crafting intuitive user experiences for our web and mobile applications, to empower both users to navigate their healthcare journeys effortlessly.
+                </h2>
             </div>          
-        </div>
+        </div>  
+
+        </div>   
 
     ) 
 };
