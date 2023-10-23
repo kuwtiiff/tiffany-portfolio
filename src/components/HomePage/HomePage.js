@@ -115,7 +115,7 @@ const HomePage = () => {
                 <h1>
                     SIZZLE MOBILE/WEB APP
                 </h1>
-
+             
             </div>
             <div className="sizzle-logo">
                     <img src={pic4} alt="Sizzle S" />
